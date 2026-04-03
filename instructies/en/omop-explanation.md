@@ -2,6 +2,8 @@
 
 The database contains clinical data from Dutch ICU hospitals (AMC, VUMC, AUMC, UMCU, CZE, OLVG), standardized to the **OMOP CDM 5.4** format. OMOP is a common schema used in medical research so that data from different hospitals and EHR systems can be analyzed together.
 
+Useful resources: [explore the OMOP schema visually](https://linkr.interhop.org/en/tools/omop-schema/) — [browse and search OMOP concepts (Athena)](https://athena.ohdsi.org/search-terms/start)
+
 The core idea in OMOP is the **concept ID**: a universal integer that identifies a clinical concept — a drug, a measurement type, a diagnosis. Concept ID `8507` means "male" everywhere, regardless of what the source hospital called it. Every table also has **`_source_value` columns** that preserve the original text from the hospital system, so you can always see what the raw data actually said.
 
 ---
@@ -39,7 +41,7 @@ To find results of a specific clinical concept, gather the relevant concept_id f
 Same structure as `measurement`, but for parameters that don't fit neatly into the measurement domain — categorical scores, flags, and similar data represented as numbers. Whether a concept lives here or in measurement can be found in the dictionary. Contains a relatively small number of records compared to `measurement`.
 
 ### `drug_exposure`
-One row per medication exposure. Contains the drug name (`drug_source_value`), start and end times, quantity, route, and dose unit. Oral and IV doses have been converted to mg, but some administration routes do not contain ingredient-level dosage information.
+One row per medication exposure. Contains the drug name (`drug_source_value`), start and end times, quantity, route, and dose unit. Oral and IV doses have been converted to mg, but some administration routes do not contain ingredient-level dosage information. There is no `drug_strength` table; instead, the total quantity administered during the exposure is stored in the `quantity` column. The rate is assumed to be stable throughout the exposure — if the rate changes, a new exposure record is created.
 
 ### `procedure_occurrence` (Certain hospitals only)
 One row per performed procedure. Contains start and end times, what was done (`procedure_source_value`), and how many times (`quantity`). For surgeries, the incision time and end time can be found here. Currently contains few concepts depending on the hospital, but can be useful for intubation timing. If specific concepts are needed, contact projectteam@icudata.nl.
@@ -78,3 +80,20 @@ The database also contains tables used for version tracking (not clinical data):
 - `icudata.version` — records when the database was last updated and what data was included
 - `icudata.changelog` — log of changes between updates (hospitals or tables added/removed, row count changes)
 - `icudata.dictionary` — concept ID to parameter name mappings
+
+---
+
+## Less relevant tables
+
+These are standard OMOP vocabulary tables. They are rarely needed for analysis but are included for completeness.
+
+- `source_to_concept_map` — contains all mappings from source values to `concept_id`s; useful for quickly checking what a source value is mapped to
+- `cdm_source` — version information about the database, including CDM version and vocabulary version
+- `concept` — large table containing all concepts across all vocabularies; not practical for looking up concepts, but occasionally useful for joining
+- `concept_ancestor` — hierarchy table that links concepts to their higher-level ancestors in vocabularies that support it; in ICUdata, only SNOMED currently supports this. Additionally, through `concept_relationship` mappings between RxNorm and SNOMED, higher-level drug concepts can also be found.
+- `concept_class` — classifies concepts within a vocabulary (e.g. "Clinical Finding", "Drug")
+- `concept_relationship` — standardized mappings between concepts across vocabularies
+- `concept_synonym` — alternative names and synonyms for concepts
+- `domain` — defines the clinical domain each concept belongs to (e.g. Measurement, Drug, Condition)
+- `relationship` — defines the types of relationships used in `concept_relationship`
+- `vocabulary` — lists all vocabularies present in the database (e.g. SNOMED, LOINC, RxNorm)

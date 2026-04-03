@@ -2,6 +2,8 @@
 
 De database bevat klinische data van meerdere Intensive Care's van Nederlandse ziekenhuizen (AMC, VUMC, AUMC, UMCU, CZE, OLVG), gestandaardiseerd naar het **OMOP CDM 5.4**-formaat. OMOP is een veelgebruikt schema in medisch onderzoek, zodat data van verschillende ziekenhuizen en EPD-systemen samen geanalyseerd kan worden.
 
+Handige links: [OMOP-schema visueel verkennen](https://linkr.interhop.org/en/tools/omop-schema/) — [OMOP-concepten opzoeken en doorzoeken (Athena)](https://athena.ohdsi.org/search-terms/start)
+
 Het centrale concept in OMOP is de **concept ID**: een universeel getal dat een klinisch begrip identificeert — een medicijn, een meettype, een diagnose. Concept ID `8507` betekent overal "mannelijk", ongeacht hoe het bronziekenhuis dit heeft vastgelegd. Elke tabel heeft ook **`_source_value`-kolommen** die de originele tekst uit het ziekenhuissysteem bewaren, zodat je altijd kunt terugzien wat de brondata precies zei.
 
 ---
@@ -39,7 +41,7 @@ Om resultaten van een specifiek klinisch concept te vinden, zoek je het bijbehor
 Dezelfde opbouw als `measurement`, maar voor parameters die niet passen binnen het meetdomein — categorische scores, vlaggen en vergelijkbare data die als getal zijn vastgelegd. Of een concept hier of in measurement staat, is terug te vinden in de dictionary. Bevat relatief weinig rijen in vergelijking met `measurement`.
 
 ### `drug_exposure`
-Één rij per medicatietoediening. Bevat de medicatienaam (`drug_source_value`), start- en eindtijd, hoeveelheid, toedieningsweg en doseringseenheid. Orale en IV-doseringen zijn omgezet naar mg, maar sommige toedieningsroutes bevatten geen doseerinformatie op ingrediëntniveau.
+Één rij per medicatietoediening. Bevat de medicatienaam (`drug_source_value`), start- en eindtijd, hoeveelheid, toedieningsweg en doseringseenheid. Orale en IV-doseringen zijn omgezet naar mg, maar sommige toedieningsroutes bevatten geen doseerinformatie op ingrediëntniveau. Er is geen `drug_strength`-tabel; in plaats daarvan staat de totale toegediende hoeveelheid tijdens de exposure in de kolom `quantity`. De toedieningssnelheid wordt als stabiel beschouwd gedurende de exposure — als de snelheid verandert, wordt een nieuwe exposure aangemaakt.
 
 ### `procedure_occurrence` (Alleen bepaalde ziekenhuizen)
 Één rij per uitgevoerde procedure. Bevat start- en eindtijd, wat er is gedaan (`procedure_source_value`) en hoe vaak (`quantity`). Voor operaties zijn hier de incisietijd en eindtijd te vinden. Bevat momenteel weinig concepten afhankelijk van het ziekenhuis, maar kan nuttig zijn voor intubatietijden. Als specifieke concepten nodig zijn, neem contact op met projectteam@icudata.nl.
@@ -78,3 +80,20 @@ De database bevat ook tabellen voor versiebeheer (geen klinische data):
 - `icudata.version` — registreert wanneer de database voor het laatst is bijgewerkt en welke data is opgenomen
 - `icudata.changelog` — log van wijzigingen tussen updates (ziekenhuizen of tabellen toegevoegd/verwijderd, wijzigingen in rij-aantallen)
 - `icudata.dictionary` — koppeling van concept ID's aan parameternamen
+
+---
+
+## Minder relevante tabellen
+
+Dit zijn standaard OMOP-vocabulairetabellen. Ze zijn zelden nodig voor analyses, maar zijn voor de volledigheid opgenomen.
+
+- `source_to_concept_map` — bevat alle koppelingen van bronwaarden naar `concept_id`s; handig om snel te zien waaraan een bronwaarde is gekoppeld
+- `cdm_source` — versie-informatie over de database, waaronder de CDM-versie en vocabulaireversie
+- `concept` — grote tabel met alle concepten uit alle vocabulaires; niet praktisch voor het opzoeken van concepten, maar soms nuttig voor joins
+- `concept_ancestor` — hiërarchietabel die concepten koppelt aan hun hogere begrippen in vocabulaires die dit ondersteunen; in ICUdata ondersteunt momenteel alleen SNOMED dit. Via `concept_relationship`-koppelingen tussen RxNorm en SNOMED kunnen ook hogere-orde medicijnconcepten worden gevonden.
+- `concept_class` — classificeert concepten binnen een vocabulaire (bijv. "Clinical Finding", "Drug")
+- `concept_relationship` — gestandaardiseerde koppelingen tussen concepten uit verschillende vocabulaires
+- `concept_synonym` — alternatieve namen en synoniemen van concepten
+- `domain` — definieert het klinische domein waartoe een concept behoort (bijv. Measurement, Drug, Condition)
+- `relationship` — definieert de soorten relaties die worden gebruikt in `concept_relationship`
+- `vocabulary` — bevat alle vocabulaires die aanwezig zijn in de database (bijv. SNOMED, LOINC, RxNorm)
