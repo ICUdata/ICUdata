@@ -37,10 +37,10 @@ Data tables:
 - observation
 - drug_exposure
 - device_exposure
-- condition_occurrence (no longer HiX only — has sources from VUMC, AMC, AUMC, OLVG, UMCU, and CZE)
+- condition_occurrence
 - care_site
-- procedure_occurrence (HiX only)
-- visit_detail (HiX only)
+- procedure_occurrence (some hospitals only)
+- visit_detail (some hospitals only)
 
 Standard/vocabulary tables:
 - concept (concept_id above 2,000,000,000 are custom ICUdata concepts)
@@ -76,17 +76,17 @@ In addition to the data and vocabulary tables listed above, the following tables
 
 **Disclaimer:** The database is continuously updating, so the information below may become outdated.
 
-- **Visit occurrence**: Contains data on ICU visits.
-- **Device and Procedure Tables**: Currently contains few concepts, depending on the EHR and hospital, but can be useful for intubation timing for some hospitals. If specific concepts are needed, contact projectteam@icudata.nl
-- **Measurement Table**: Contains most of the data. Some procedures and devices live here as starting and ending times.
-- **Observations**: Contains a very small amount of observations.
-- **Visit detail** (HiX only): Contains data on transfers to operating room as well as copies of visit_occurrences
-- **Death**: Contains death records. It varies per hospital whether deaths outside ICU or outside hospital and up to how far these are recorded.
-- **Condition_occurrence**: Contains aggregated custom concepts for Metavision and Epic, and SNOMED terms mapped from ICD-10 concepts for HiX. Now includes sources from VUMC, AMC, AUMC, OLVG, UMCU, and CZE.
-- **Drug exposure**: Oral and IV doses have been converted to mg, but some administration routes do not contain ingredient-level dosage information
-- **Care site**: Shows all hospitals currently with data in ICUdata.
-- **CDM source**: Contains version information about the database, including CDM version and vocabulary version.
-- **Source to concept map**: Contains the mappings used to map source values to standard OMOP concepts.
+- **Person**: One row per patient.
+- **Visit occurrence**: One row per ICU admission.
+- **Visit detail** (some hospitals only): Sub-stays within an admission — ICU stays and operating room episodes.
+- **Care site**: Hospital lookup table.
+- **Death**: In-hospital death records.
+- **Measurement**: Vitals, labs, scores — the largest table.
+- **Observation**: Subjective measurements.
+- **Drug exposure**: Medication exposures.
+- **Device exposure**: Device use records (LDA's)
+- **Condition occurrence**: Diagnoses and conditions.
+- **Procedure occurrence** (some hospitals only): Performed procedures.
 
 ---
 

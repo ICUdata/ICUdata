@@ -37,10 +37,10 @@ Datatabellen:
 - observation
 - drug_exposure
 - device_exposure
-- condition_occurrence (niet langer alleen HiX — heeft bronnen van VUMC, AMC, AUMC, OLVG, UMCU en CZE)
+- condition_occurrence
 - care_site
-- procedure_occurrence (alleen HiX)
-- visit_detail (alleen HiX)
+- procedure_occurrence (alleen bepaalde ziekenhuizen)
+- visit_detail (alleen bepaalde ziekenhuizen)
 
 Standaard-/vocabulairetabellen:
 - concept (concept_id boven 2.000.000.000 zijn aangepaste ICUdata-concepten)
@@ -76,17 +76,17 @@ Naast de data- en vocabulairetabellen hierboven, bieden de volgende tabellen met
 
 **Disclaimer:** De database wordt continu bijgewerkt, dus onderstaande informatie kan verouderd raken.
 
-- **Visit occurrence**: Bevat data over IC-opnames.
-- **Device- en Procedure-tabellen**: Bevat momenteel weinig concepten, afhankelijk van het EPD en het ziekenhuis, maar kan nuttig zijn voor intubatietijden bij sommige ziekenhuizen. Als specifieke concepten nodig zijn, neem contact op met projectteam@icudata.nl.
-- **Measurement-tabel**: Bevat het grootste deel van de data. Sommige procedures en apparaten staan hier als begin- en eindtijden.
-- **Observations**: Bevat een zeer klein aantal observaties.
-- **Visit detail** (alleen HiX): Bevat data over overplaatsingen naar de operatiekamer en kopieën van visit_occurrences.
-- **Death**: Bevat overlijdensregistraties. Het varieert per ziekenhuis of overlijdens buiten de IC of buiten het ziekenhuis worden geregistreerd en tot hoe ver.
-- **Condition_occurrence**: Bevat geaggregeerde aangepaste concepten voor Metavision en Epic, en SNOMED-termen gemapt vanuit ICD-10-concepten voor HiX. Bevat nu bronnen van VUMC, AMC, AUMC, OLVG, UMCU en CZE.
-- **Drug exposure**: Orale en IV-doseringen zijn omgezet naar mg, maar sommige toedieningsroutes bevatten geen doseerinformatie op ingrediëntniveau.
-- **Care site**: Toont alle ziekenhuizen die momenteel data hebben in ICUdata.
-- **CDM source**: Bevat versie-informatie over de database, waaronder de CDM-versie en vocabulaireversie.
-- **Source to concept map**: Bevat de mappings die gebruikt zijn om bronwaarden te mappen naar standaard OMOP-concepten.
+- **Person**: Één rij per patiënt.
+- **Visit occurrence**: Één rij per IC-opname.
+- **Visit detail** (alleen bepaalde ziekenhuizen): IC-verblijven en OK-episodes.
+- **Care site**: Lijst van ziekenhuizen.
+- **Death**: Overlijdensregistraties in het ziekenhuis.
+- **Measurement**: Vitale functies, laboratoriumuitslagen, scores, etc - de grootste tabel.
+- **Observation**: Indirecte meetinstrumenten.
+- **Drug exposure**: Medicatietoedieningen.
+- **Device exposure**: LDA's
+- **Condition occurrence**: Diagnoses en aandoeningen.
+- **Procedure occurrence** (alleen bepaalde ziekenhuizen): Uitgevoerde procedures.
 
 ---
 
