@@ -21,7 +21,27 @@ The database can be queried using standard SQL, with slight variations due to Du
 - Use `duckdb /home/ICUData/ICUdata<version> -readonly` for faster queries.
 
 ### Script access
-- In Python or R scripts, import the DuckDB library to interact with the database. DuckDB has excellent synergy with Pandas DataFrames, allowing you to query DataFrames directly and convert them efficiently. Refer to the [DuckDB documentation](https://duckdb.org/docs) for more details.
+- In Python or R scripts, import the DuckDB library to interact with the database. **Always open the database in read-only mode:**
+
+  **Python:**
+  ```python
+  import duckdb
+  con = duckdb.connect("/home/ICUData/ICUdata<version>", read_only=True)
+  ```
+
+  **R:**
+  ```r
+  library(duckdb)
+  con <- dbConnect(duckdb(), dbdir = "/home/ICUData/ICUdata<version>", read_only = TRUE)
+
+  # Run a query
+  dbGetQuery(con, "SELECT 42 AS answer")
+
+  # Disconnect when done
+  dbDisconnect(con, shutdown = TRUE)
+  ```
+
+- DuckDB has excellent synergy with Pandas DataFrames, allowing you to query DataFrames directly and convert them efficiently. Refer to the [DuckDB documentation](https://duckdb.org/docs) for more details.
 
 ---
 

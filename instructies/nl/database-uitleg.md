@@ -21,7 +21,27 @@ De database kan worden gequeryed met standaard SQL, met kleine variaties door Du
 - Gebruik `duckdb /home/ICUData/ICUdata<versie> -readonly` voor snellere queries.
 
 ### Scripttoegang
-- Importeer in Python- of R-scripts de DuckDB-bibliotheek om met de database te werken. DuckDB heeft uitstekende integratie met Pandas DataFrames, waardoor je DataFrames direct kunt bevragen en efficiënt kunt converteren. Zie de [DuckDB-documentatie](https://duckdb.org/docs) voor meer informatie.
+- Importeer in Python- of R-scripts de DuckDB-bibliotheek om met de database te werken. **Open de database altijd in alleen-lezen modus:**
+
+  **Python:**
+  ```python
+  import duckdb
+  con = duckdb.connect("/home/ICUData/ICUdata<versie>", read_only=True)
+  ```
+
+  **R:**
+  ```r
+  library(duckdb)
+  con <- dbConnect(duckdb(), dbdir = "/home/ICUData/ICUdata<versie>", read_only = TRUE)
+
+  # Voer een query uit
+  dbGetQuery(con, "SELECT 42 AS answer")
+
+  # Sluit de verbinding wanneer je klaar bent
+  dbDisconnect(con, shutdown = TRUE)
+  ```
+
+- DuckDB heeft uitstekende integratie met Pandas DataFrames, waardoor je DataFrames direct kunt bevragen en efficiënt kunt converteren. Zie de [DuckDB-documentatie](https://duckdb.org/docs) voor meer informatie.
 
 ---
 

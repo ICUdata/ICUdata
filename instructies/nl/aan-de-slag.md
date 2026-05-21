@@ -50,6 +50,22 @@ De werkruimte bestaat uit twee VMs:
 
 Opmerking: we raden aan om Auto-save in te schakelen in VSCode door op "File" te klikken en vervolgens op "Autosave".
 
+**Let op: Herhaalde wachtwoordprompts voorkomen**
+
+Elk nieuw VSCode-venster via SSH vraagt normaal opnieuw om je MyDre-wachtwoord. Je kunt eenmalig een SSH-sleutel instellen zodat toekomstige verbindingen automatisch werken. Doe dit vanuit een PowerShell-venster op de Windows VM:
+
+1. Maak een sleutel aan:
+   ```
+   ssh-keygen -t ed25519
+   ```
+   Wanneer om de bestandslocatie wordt gevraagd, druk je op Enter om de standaardwaarde te accepteren. Wanneer om een passphrase wordt gevraagd, **moet** je er een instellen om de sleutel te beveiligen — laat deze **niet** leeg. Deze passphrase voer je maar één keer in. Als je deze leeg laat, blijft VSCode bij elke nieuwe verbinding om je MyDre-wachtwoord vragen.
+2. Kopieer de sleutel naar de Linux VM. Vervang `<je_mydre_email>` en `<linux-vm-ip>` door je eigen waarden (dezelfde die je hierboven gebruikt voor de SSH-verbinding):
+   ```
+   type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh <je_mydre_email>@<linux-vm-ip> "cat >> ~/.ssh/authorized_keys"
+   ```
+   Voorbeeld: `type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh Jan.Jansen@mydre.org@10.4.21.53 "cat >> ~/.ssh/authorized_keys"`
+3. Voer je MyDre-wachtwoord nog één keer in wanneer daarom gevraagd wordt. Hierna maken nieuwe VSCode SSH-vensters verbinding zonder om je wachtwoord te vragen.
+
 #### Via R
 
 1. Klik op de **Windows-knop** en typ **"proxy"**.

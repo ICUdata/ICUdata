@@ -50,6 +50,22 @@ The workspace consists of two main VMs:
 
 Note: we recommend turning on Auto-save in VScode by clicking on "File" and then "Autosave"
 
+**Note: Avoiding repeated password prompts**
+
+Each new VSCode window over SSH will normally ask for your MyDre password again. You can set up an SSH key once so future connections happen automatically. Do this from a PowerShell window on the Windows VM:
+
+1. Create a key:
+   ```
+   ssh-keygen -t ed25519
+   ```
+   When asked for the file location, press Enter to accept the default. When asked for a passphrase, you **must** set one to protect the key — do **not** leave it empty. You enter this passphrase only once. If you leave it empty, VSCode will keep asking for your MyDre password on every new connection.
+2. Copy the key to the Linux VM. Replace `<your_mydre_email>` and `<linux-vm-ip>` with your own values (the same ones you use for the SSH connection above):
+   ```
+   type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh <your_mydre_email>@<linux-vm-ip> "cat >> ~/.ssh/authorized_keys"
+   ```
+   Example: `type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh John.Doe@mydre.org@10.4.21.53 "cat >> ~/.ssh/authorized_keys"`
+3. Enter your MyDre password one last time when prompted. After this, new VSCode SSH windows will connect without asking for your password.
+
 #### Using R
 
 1. Click the **Windows button** and type **"proxy"**.
