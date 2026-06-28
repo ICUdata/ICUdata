@@ -10,7 +10,7 @@ Publieke repository van de Dutch ICU Data Warehouse (Stichting ICUdata), een pro
   - `database-uitleg.md` — overzicht van de databasestructuur, tabellen en querytips
   - `omop-uitleg.md` — uitleg van het OMOP CDM-formaat en alle tabellen
 - `instructies/en/` — map met instructies in het Engels
-- `dictionary.csv` — overzicht van alle concepten in de database, inclusief statistieken (aantal rijen, patiëntdekking per ziekenhuis)
+- `releases/` — per release: een changelog (`CHANGELOG.md`) en de volledige concept-dictionary (`dictionary.csv`) van die release, met alle concepten en statistieken (aantal rijen, patiëntdekking per ziekenhuis)
 - `common_concepts.yaml` — koppeling van klinische conceptnamen aan hun OMOP `concept_id`s; kan worden gebruikt als startpunt voor het bevragen van veelgebruikte variabelen
 
 ---
@@ -25,6 +25,6 @@ Public repository of the Dutch ICU Data Warehouse (Stichting ICUdata), a project
   - `database-guide.md` — overview of the database structure, tables, and query tips
   - `omop-explanation.md` — explanation of the OMOP CDM format and all tables
 - `instructies/nl/` — folder with instructions in Dutch
-- `dictionary.csv` — overview of all concepts in the database, including statistics (row counts, patient coverage per hospital, value distributions)
+- `releases/` — per release: a changelog (`CHANGELOG.md`) and that release's full concept dictionary (`dictionary.csv`), with all concepts and statistics (row counts, patient coverage per hospital, value distributions)
 - `common_concepts.yaml` — maps clinical concept names to their OMOP `concept_id`s; can be used as a starting point for querying common variables
 >>>>>>> 6d730b9dbf59d19ceb0ee7a6aba9026f994de816

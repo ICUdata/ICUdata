@@ -34,6 +34,15 @@ The workspace consists of two main VMs:
 
 ### Accessing the Linux VM
 
+#### Alternative: connecting directly to the Linux VM via RDP
+
+The steps below assume you start the Windows VM and connect from there to the Linux VM over SSH. As an alternative, you can connect to the Linux VM **directly**, without going through the Windows VM:
+
+1. In the Azure connection portal, when connecting to the Linux VM, select **RDP** instead of **SSH**.
+2. This opens the Linux desktop directly. From there you can launch the **latest version of VSCode** locally on the Linux VM by typing `code` in the "Terminal Emulator", which can be found in the start menu in the top left.
+
+Because VSCode then runs on the Linux VM itself, no SSH connection is needed: you can skip the "Remote - SSH" extension, the repeated MyDre password prompts, and the SSH key setup described below. You also get to use the newest VSCode version rather than the one pre-installed on the Windows VM.
+
 #### Using Python
 
 1. **Launch Visual Studio Code** on the Windows VM. If not present as a desktop shortcut, search the VM by clicking the Windows button in the bottom left.
