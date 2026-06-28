@@ -34,6 +34,15 @@ De werkruimte bestaat uit twee VMs:
 
 ### Toegang tot de Linux VM
 
+#### Alternatief: rechtstreeks verbinden met de Linux VM via RDP
+
+De onderstaande stappen gaan ervan uit dat je de Windows VM start en van daaruit via SSH verbinding maakt met de Linux VM. Als alternatief kun je **rechtstreeks** verbinding maken met de Linux VM, zonder via de Windows VM te gaan:
+
+1. Selecteer in het Azure-verbindingsportaal bij het verbinden met de Linux VM **RDP** in plaats van **SSH**.
+2. Dit opent direct het Linux-bureaublad. Van daaruit kun je de **nieuwste versie van VSCode** lokaal op de Linux VM starten door vanuit de "Terminal Emulator", vindbaar in het startmenu linksboven "code" te typen
+
+Omdat VSCode dan op de Linux VM zelf draait, is er geen SSH-verbinding nodig: je kunt de "Remote - SSH"-extensie, de herhaalde MyDre-wachtwoordprompts en de SSH-sleutelconfiguratie die hieronder beschreven staan overslaan. Bovendien gebruik je zo de nieuwste VSCode-versie in plaats van de versie die vooraf op de Windows VM is geïnstalleerd.
+
 #### Via Python
 
 1. **Start Visual Studio Code** op de Windows VM. Als het niet als snelkoppeling op het bureaublad staat, zoek dan op de VM door op de Windows-knop linksonder te klikken.
