@@ -1,6 +1,10 @@
 # ICUdata v0.2.0
 **Date:** 2026-06-28 | **Previous:** v0.1.0 | **Hospitals:** amc, aumc, cze, mcl, olvg, radboud, sfg, umcu, vumc | **Tables:** 18
 
+## Comments: 
+
+This update adds data from the Frisius Medisch Centrum, Franciscus Ziekenhuis (formerly known as Medisch Centrum Leeuwarden and Sint Franciscus Gasthuis respectively, names to be updated next version) and Radboud UMC. Further notable changes are the addition of the SNOMED-CT and OMOP Extension vocabularies, which includes new mappings and remapping of former custom concepts, the temporary removal of condition_occurrences in HiX for future compatibility of the diagnosis table and many smaller fixes that add to broader usage of the delivered source data. 
+
 ## Hospitals Added
 
 | Hospital | Tables |
