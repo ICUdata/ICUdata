@@ -1,0 +1,49 @@
+concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,concept_code,table_name,record_count,patient_count,patient_coverage_pct,units,coverage_7,coverage_Amsterdam UMC Epic,coverage_Amsterdam UMC Metavision Meibergdreef,coverage_Catharina Ziekenhuis Eindhoven,coverage_Franciscus Gasthuis,coverage_OLVG,coverage_Radboudumc,coverage_UMC Utrecht,coverage_Amsterdam UMC Metavision Boelelaan
+1469651,Method of oxygen delivery,Observation,LOINC,Clinical Observation,107117-4,observation,5590188,84370,66.61140060003159,,,88.98001025115326,86.89529080397293,37.65625,39.298892988929886,85.00548245614036,4.630583671737681,,89.30583501006036
+36659961,Intensive care unit (ICU) admission date,Observation,LOINC,Clinical Observation,95367-9,observation,2683126,664,0.5242381177956734,,,,,,,,3.648705982180738,,
+3024265,Body temperature measurement site,Observation,LOINC,Clinical Observation,8327-9,observation,1642037,48348,38.17148270961629,,47.346407658704344,16.090367858691796,,,,,91.72677131947391,,
+4287468,Body position,Observation,SNOMED,Observable Entity,397155001,observation,1365958,46547,36.7495657666193,,80.77888279579886,,76.80486238078767,,,82.55665204678363,,,
+3042082,Confusion Assessment Method (CAM),Observation,LOINC,Survey,52495-9,observation,1234371,43641,34.45523448602558,,,26.30603635216654,,,,83.12317251461988,86.94466331292806,41.37660298351217,8.06841046277666
+4273031,Color of sputum - finding,Observation,SNOMED,Clinical Finding,365445003,observation,1160271,16822,13.281225327648823,,,,,16.540178571428573,11.746617466174662,,36.32341354021456,33.132687778068565,37.5
+4146379,Cough reflex,Observation,SNOMED,Observable Entity,34606001,observation,436302,18918,14.936049265750828,,,34.81843630485353,,15.9375,11.07011070110701,,,40.225071970688305,37.51509054325956
+40757705,Presence of pressure injury,Observation,LOINC,Survey,54574-9,observation,389737,55692,43.969682614874465,,,,90.12205366408064,,,91.72605994152046,,3.0620256477361947,84.54728370221328
+2000000656,icu_specialty,Observation,ICUdata,Observable Entity,2000000656,observation,233731,89354,70.54634454444971,,,82.05653905295115,60.99224193309285,,,98.92635233918129,69.77392569246621,,92.15291750503017
+2000000986,Ventilator trigger mode,Observation,ICUdata,Observable Entity,2000000986,observation,228538,5475,4.322595926101374,,,,,,,24.698464912280702,,,
+2000000657,icu_admission_type,Observation,ICUdata,Observable Entity,2000000657,observation,220434,79820,63.01910626875099,,99.11701831025188,82.05653905295115,59.28250234718585,,,98.92635233918129,69.9072671070974,,
+4043369,Activity of daily living,Observation,SNOMED,Observable Entity,129025006,observation,212105,19717,15.566871940628454,,,,,,,89.07163742690058,,,
+4150612,Respiratory pattern,Observation,SNOMED,Observable Entity,278907009,observation,180204,12176,9.613137533554397,,19.221117204201136,,,,,20.476973684210527,,,
+2000000662,History of diabetes,Observation,ICUdata,Observable Entity,2000000662,observation,174737,84022,66.33664929733143,,7.286922576447625,82.06048180420298,43.7564856451055,,,98.92635233918129,69.58603551730408,,39.798792756539235
+4083588,Patient sex,Observation,SNOMED,Observable Entity,184100006,observation,161953,21904,17.29354176535607,,,,,,,99.22788742690058,,,
+4127794,Decubitus,Observation,SNOMED,Qualifier Value,260452000,observation,137346,17480,13.800726354018632,,,,,,,78.1295687134503,,,
+4137801,Coughing,Observation,SNOMED,Observable Entity,263731006,observation,126425,8379,6.615348176219801,,28.50636676271029,,,,,,,,
+2000000961,Critical Care Pain Observation Tool facial expression,Observation,ICUdata,Observable Entity,2000000961,observation,124643,15272,12.05747670930049,,,,,,,69.06067251461988,,,
+2000000993,Intensive Care Delirium Screening Checklist consciousness score,Observation,ICUdata,Observable Entity,2000000993,observation,122041,12469,9.844465498184116,,,,,,,56.026133040935676,,,
+2000000962,Critical Care Pain Observation Tool body movements,Observation,ICUdata,Observable Entity,2000000962,observation,119419,14985,11.830885836096636,,,,,,,67.74945175438596,,,
+2000000666,History of neoplasm with metastasis,Observation,ICUdata,Observable Entity,2000000666,observation,76997,56320,44.465498184114956,,,82.07231005795845,61.00212482087266,,,,69.62240135765803,,37.947686116700204
+2000000667,History of hematologic malignancy,Observation,ICUdata,Observable Entity,2000000667,observation,76996,56317,44.46312963840202,,,82.07231005795845,61.00212482087266,,,,69.61027941087339,,37.947686116700204
+2000000663,History of Chronic Respiratory Insufficiency,Observation,ICUdata,Observable Entity,2000000663,observation,76974,56318,44.463919153639665,,,82.07231005795845,61.00212482087266,,,,69.61634038426571,,37.947686116700204
+2000000665,History of cirrhosis,Observation,ICUdata,Observable Entity,2000000665,observation,76974,56319,44.46470866887731,,,82.07231005795845,61.00212482087266,,,,69.62240135765803,,37.947686116700204
+2000000990,Intensive Care Delirium Screening Checklist result,Observation,ICUdata,Observable Entity,2000000990,observation,68836,10653,8.410705826622454,punt(en),,,,,,47.69736842105263,,,
+2000000987,Intensive Care Delirium Screening Checklist fluctuation score,Observation,ICUdata,Observable Entity,2000000987,observation,67263,10653,8.410705826622454,,,,,,,47.69736842105263,,,
+2000000664,History of Chronic Cardiovascular Insufficiency,Observation,ICUdata,Observable Entity,2000000664,observation,61925,43216,34.11969051002684,,,82.07231005795845,61.00212482087266,,,,0.4485120310321838,,37.94265593561368
+2000000668,History of immunologic insufficiency,Observation,ICUdata,Observable Entity,2000000668,observation,61750,43053,33.99099952629086,,,82.07231005795845,61.00212482087266,,,,,,37.947686116700204
+2000000669,Mechanical ventilation on ICU admission,Observation,ICUdata,Observable Entity,2000000669,observation,56165,48419,38.227538291489026,,,82.07231005795845,61.00212482087266,,,,69.79816958603551,,
+2000000671,Mechanical ventilation within 24 hours after ICU admission,Observation,ICUdata,Observable Entity,2000000671,observation,40868,35118,27.72619611558503,,,82.07231005795845,61.00212482087266,,,,,,
+4125279,Ability to initiate swallowing reflex,Observation,SNOMED,Observable Entity,288963004,observation,33076,4883,3.8552029054160744,,11.460172878520309,,,9.464285714285714,9.28659286592866,,,38.6286312483643,
+3023170,Hospital admission date,Observation,LOINC,Clinical Observation,8656-1,observation,32088,21955,17.333807042475918,,,,,,,98.30043859649123,,0.9159905783826223,
+3021690,Hospital discharge date,Observation,LOINC,Clinical Observation,8649-6,observation,24432,21874,17.26985630822675,,,,,,,1.608187134502924,,,
+3012697,History of Tobacco use,Observation,LOINC,Clinical Observation,11367-0,observation,24091,17271,13.635717669351019,,,,21.712704452240946,,,0.04568713450292398,,,
+3027199,History of Alcohol use,Observation,LOINC,Clinical Observation,11331-6,observation,19309,10097,7.971735354492342,,,,20.67994267925088,,,,,,
+4185148,Cardiac pacing rate,Observation,SNOMED,Observable Entity,413755002,observation,18860,5694,4.495499763145428,"BPM, ppm",,12.163387611875567,,,,,13.928116855567003,,
+4168193,Intubation technique,Observation,SNOMED,Qualifier Value,416238005,observation,18759,1833,1.4471814306016106,,,,,,,,,47.867050510337606,
+3022304,Age,Observation,LOINC,Clinical Observation,30525-0,observation,16512,14033,11.079267329859466,"jaar, ",,,,,,,71.53766894963331,,2.0824949698189137
+37397718,Difficult intubation,Observation,SNOMED,Clinical Finding,718447001,observation,6445,2221,1.7535133428075163,,,,,,,9.946089181286549,,,
+40758416,Time of death,Observation,LOINC,Clinical Observation,55287-7,observation,6089,3166,2.499605242381178,,,,,,,,13.140190314564519,,
+21494253,Intra-aortic balloon pump used,Observation,LOINC,Clinical Observation,80998-8,observation,2561,34,0.026843518079898942,,,,,,,,,0.8113059408531798,
+4297089,Natural death,Observation,SNOMED,Event,38605008,observation,1852,1458,1.1511132164850781,,0.32530904359141183,,5.089687206601769,,,,,,
+1989127,Dialysis access site,Observation,LOINC,Clinical Observation,99715-5,observation,1832,1020,0.8053055423969683,,,0.22079407010211727,,,,,,,
+4183166,Orientation,Observation,SNOMED,Observable Entity,43173001,observation,1821,768,0.6063477025106585,,,,,,,3.2118055555555554,,,
+1073572,Rotational thromboelastometry technique,Observation,SNOMED,Qualifier Value,1306388004,observation,1403,288,0.2273803884414969,mm,,,,4.263392857142857,,,,,
+3022196,History of Other nonmedical drug use,Observation,LOINC,Clinical Observation,11343-1,observation,463,356,0.2810674246012948,,,,,,,,,,
+44808537,Assessment of ileostomy,Observation,SNOMED,Procedure,859131000000106,observation,394,341,0.2692246960366335,,,0.02759925876276466,,,,,,,
+4091068,Consistency of liquor,Observation,SNOMED,Observable Entity,249133002,observation,220,155,0.12237486183483341,,,,,,,0.5254020467836257,,,

@@ -1,0 +1,5 @@
+concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,concept_code,table_name,record_count,patient_count,patient_coverage_pct,units,coverage_7,coverage_Amsterdam UMC Epic,coverage_Amsterdam UMC Metavision Meibergdreef,coverage_Catharina Ziekenhuis Eindhoven,coverage_Franciscus Gasthuis,coverage_OLVG,coverage_Radboudumc,coverage_UMC Utrecht,coverage_Amsterdam UMC Metavision Boelelaan
+8507,,,,,,person,56090,56090,44.28390967945681,,,,,,,,,,
+8532,,,,,,person,30459,30459,24.047844623401232,,,,,,,,,,
+1,,,,,,person,14593,14593,11.521395862940155,,,,,,,,,,
+2,,,,,,person,7311,7311,5.772145902415916,,,,,,,,,,

@@ -9,7 +9,8 @@ releases/
 ├── README.md                     # this page
 └── v<MAJOR>.<MINOR>.<PATCH>-<YYYY-MM-DD>/
     ├── CHANGELOG.md              # what changed vs. the previous release
-    └── dictionary.csv            # full concept dictionary as of this release
+    ├── dictionary.csv            # full concept dictionary as of this release
+    └── dictionary/               # the same dictionary split into one CSV per table
 ```
 
 Each release folder is named with its version and release date, e.g.
@@ -23,6 +24,10 @@ Each release folder is named with its version and release date, e.g.
 - **`dictionary.csv`** — the full concept dictionary as of this release: every
   concept with its statistics (row counts, per-hospital patient coverage, value
   distributions).
+- **`dictionary/`** — the same dictionary split into one CSV per OMOP table
+  (`measurement.csv`, `drug_exposure.csv`, …) plus a `README.md` index. The
+  full `dictionary.csv` exceeds GitHub's table-render limit; the per-table
+  files are small enough to display inline.
 
 ## Versioning
 
