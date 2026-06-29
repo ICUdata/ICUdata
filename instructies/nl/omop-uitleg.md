@@ -47,7 +47,7 @@ Dezelfde opbouw als `measurement`, maar voor parameters die niet passen binnen h
 Één rij per uitgevoerde procedure. Bevat start- en eindtijd, wat er is gedaan (`procedure_source_value`) en hoe vaak (`quantity`). Voor operaties zijn hier de incisietijd en eindtijd te vinden. Bevat momenteel weinig concepten afhankelijk van het ziekenhuis, maar kan nuttig zijn voor intubatietijden. Als specifieke concepten nodig zijn, neem contact op met projectteam@icudata.nl.
 
 ### `condition_occurrence`
-Één rij per geregistreerde diagnose of aandoening. Bevat wat de aandoening was (`condition_source_value`) en wanneer deze actief was. Beschikbaar voor HiX-ziekenhuizen. Voor sommige ziekenhuizen zijn de aandoeningen gekoppeld aan SNOMED `concept_id`s. Voor de Amsterdam UMC-ziekenhuizen (AMC, VUMC, AUMC) bevat de tabel geaggregeerde aangepaste concepten; deze staan in de kolom `measurement_source_value`.
+Één rij per geregistreerde diagnose of aandoening. Bevat wat de aandoening was (`condition_source_value`) en wanneer deze actief was. Beschikbaar voor HiX-ziekenhuizen. Voor sommige ziekenhuizen zijn de aandoeningen gekoppeld aan SNOMED `concept_id`-waarden. Voor de Amsterdam UMC-ziekenhuizen (AMC, VUMC, AUMC) bevat de tabel geaggregeerde aangepaste concepten; deze staan in de kolom `measurement_source_value`.
 
 ### `device_exposure`
 Één rij per apparaatgebruik — beademingsapparaten, katheters, lijnen. Bevat de apparaatnaam (`device_source_value`) en de periode dat het in gebruik was. De einddatum is optioneel (bij sommige apparaten is geen verwijdertijd geregistreerd).
@@ -87,7 +87,7 @@ De database bevat ook tabellen voor versiebeheer (geen klinische data):
 
 Dit zijn standaard OMOP-vocabulairetabellen. Ze zijn zelden nodig voor analyses, maar zijn voor de volledigheid opgenomen.
 
-- `source_to_concept_map` — bevat alle koppelingen van bronwaarden naar `concept_id`s; handig om snel te zien waaraan een bronwaarde is gekoppeld
+- `source_to_concept_map` — bevat alle koppelingen van bronwaarden naar `concept_id`-waarden; handig om snel te zien waaraan een bronwaarde is gekoppeld
 - `cdm_source` — versie-informatie over de database, waaronder de CDM-versie en vocabulaireversie
 - `concept` — grote tabel met alle concepten uit alle vocabulaires; niet praktisch voor het opzoeken van concepten, maar soms nuttig voor joins
 - `concept_ancestor` — hiërarchietabel die concepten koppelt aan hun hogere begrippen in vocabulaires die dit ondersteunen; in ICUdata ondersteunt momenteel alleen SNOMED dit. Via `concept_relationship`-koppelingen tussen RxNorm en SNOMED kunnen ook hogere-orde medicijnconcepten worden gevonden.

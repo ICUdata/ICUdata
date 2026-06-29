@@ -47,7 +47,7 @@ One row per medication exposure. Contains the drug name (`drug_source_value`), s
 One row per performed procedure. Contains start and end times, what was done (`procedure_source_value`), and how many times (`quantity`). For surgeries, the incision time and end time can be found here. Currently contains few concepts depending on the hospital, but can be useful for intubation timing. If specific concepts are needed, contact projectteam@icudata.nl.
 
 ### `condition_occurrence`
-One row per recorded diagnosis or condition. Contains what the condition was (`condition_source_value`) and when it was active. Available for HiX hospitals. For some hospitals, conditions have been mapped to SNOMED `concept_id`s. For the Amsterdam UMC hospitals (AMC, VUMC, AUMC), the table contains aggregated custom concepts; these live in the `measurement_source_value` column.
+One row per recorded diagnosis or condition. Contains what the condition was (`condition_source_value`) and when it was active. Available for HiX hospitals. For some hospitals, conditions have been mapped to SNOMED `concept_id` values. For the Amsterdam UMC hospitals (AMC, VUMC, AUMC), the table contains aggregated custom concepts; these live in the `measurement_source_value` column.
 
 ### `device_exposure`
 One row per device use — ventilators, catheters, lines. Contains the device name (`device_source_value`) and the period it was in use. End date is optional (some devices have no recorded removal time).
@@ -87,7 +87,7 @@ The database also contains tables used for version tracking (not clinical data):
 
 These are standard OMOP vocabulary tables. They are rarely needed for analysis but are included for completeness.
 
-- `source_to_concept_map` — contains all mappings from source values to `concept_id`s; useful for quickly checking what a source value is mapped to
+- `source_to_concept_map` — contains all mappings from source values to `concept_id` values; useful for quickly checking what a source value is mapped to
 - `cdm_source` — version information about the database, including CDM version and vocabulary version
 - `concept` — large table containing all concepts across all vocabularies; not practical for looking up concepts, but occasionally useful for joining
 - `concept_ancestor` — hierarchy table that links concepts to their higher-level ancestors in vocabularies that support it; in ICUdata, only SNOMED currently supports this. Additionally, through `concept_relationship` mappings between RxNorm and SNOMED, higher-level drug concepts can also be found.
