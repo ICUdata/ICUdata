@@ -8,7 +8,7 @@ For setting up your environment, see [Getting Started](getting-started.md).
 
 ## Overview
 
-The database is a DuckDB database, located in /home/ICUData. It is a read-only database to prevent accidental changes. To modify the data, you can read it into scripts and modify it there, save it in your own folder, etc.
+The database is a DuckDB database, located in `/home/ICUdata` (lowercase d). The filename contains the version number with underscores instead of dots, e.g. `ICUdata_0_2_0` for version 0.2.0; run `ls /home/ICUdata` for the exact filename. It is a read-only database to prevent accidental changes. To modify the data, you can read it into scripts and modify it there, save it in your own folder, etc.
 
 The database can be queried using standard SQL, with slight variations due to DuckDB syntax. Converting from other SQL-languages to DuckDB using LLMs usually works well. Tables are prefixed with `icudata`.
 
@@ -17,8 +17,8 @@ The database can be queried using standard SQL, with slight variations due to Du
 ## Accessing the Database
 
 ### Terminal access
-- Use `harlequin /home/ICUData/ICUdata<version> -readonly` for a terminal overview that shows the database structure clearly.
-- Use `duckdb /home/ICUData/ICUdata<version> -readonly` for faster queries.
+- Use `harlequin /home/ICUdata/ICUdata_<version> -readonly` for a terminal overview that shows the database structure clearly.
+- Use `duckdb /home/ICUdata/ICUdata_<version> -readonly` for faster queries.
 
 ### Script access
 - In Python or R scripts, import the DuckDB library to interact with the database. **Always open the database in read-only mode:**
@@ -26,13 +26,13 @@ The database can be queried using standard SQL, with slight variations due to Du
   **Python:**
   ```python
   import duckdb
-  con = duckdb.connect("/home/ICUData/ICUdata<version>", read_only=True)
+  con = duckdb.connect("/home/ICUdata/ICUdata_<version>", read_only=True)
   ```
 
   **R:**
   ```r
   library(duckdb)
-  con <- dbConnect(duckdb(), dbdir = "/home/ICUData/ICUdata<version>", read_only = TRUE)
+  con <- dbConnect(duckdb(), dbdir = "/home/ICUdata/ICUdata_<version>", read_only = TRUE)
 
   # Run a query
   dbGetQuery(con, "SELECT 42 AS answer")
