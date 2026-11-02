@@ -21,7 +21,7 @@ De ICUdata-database wordt gehost op het MyDre-platform van AnDREa, een beschermd
 De werkruimte bestaat uit twee VMs:
 
 - **Windows VM**: Dit is voornamelijk een visuele interface met applicaties om verbinding te maken met de Linux VM. Er worden/mogen geen data op opgeslagen worden.
-- **Linux VM**: Deze VM bevat een eigen schijf vergelijkbaar met een C:-schijf in Windows. Het bevat gebruikersspecifieke data en de alleen-lezen DuckDB-database in `/home/ICUData`, die ICUdata bevat.
+- **Linux VM**: Deze VM bevat een eigen schijf vergelijkbaar met een C:-schijf in Windows. Het bevat gebruikersspecifieke data en de alleen-lezen DuckDB-database in `/home/ICUdata`, die ICUdata bevat.
 
 **Opmerkingen over de VMs**
 - Om ICUdata te gebruiken moet je **beide VMs starten**.

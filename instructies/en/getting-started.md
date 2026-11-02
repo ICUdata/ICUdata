@@ -21,7 +21,7 @@ The ICUdata database is hosted on the MyDre platform by AnDREa, a protected rese
 The workspace consists of two main VMs:
 
 - **Windows VM**: This is primarily a visual interface with applications to connect to the Linux VM. No data is/should be stored here.
-- **Linux VM**: This VM contains a dedicated drive similar to a C: drive in Windows. It includes user-specific data and the read-only DuckDB database located at `/home/ICUData`, which contains ICUdata.
+- **Linux VM**: This VM contains a dedicated drive similar to a C: drive in Windows. It includes user-specific data and the read-only DuckDB database located at `/home/ICUdata`, which contains ICUdata.
 
 **Note on the VMs**
 - To use ICUdata, you need to **start both VMs**.

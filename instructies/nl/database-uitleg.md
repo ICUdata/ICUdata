@@ -8,7 +8,7 @@ Voor het opzetten van je omgeving, zie [Aan de slag](getting-started.md).
 
 ## Overzicht
 
-De database is een DuckDB-database, te vinden in /home/ICUData. Het is een alleen-lezen database om onbedoelde wijzigingen te voorkomen. Om de data te bewerken kun je deze inlezen in scripts en daar aanpassen, opslaan in je eigen map, etc.
+De database is een DuckDB-database, te vinden in `/home/ICUdata` (met kleine letter d). De bestandsnaam bevat het versienummer met underscores in plaats van punten, bijv. `ICUdata_0_2_0` voor versie 0.2.0; gebruik `ls /home/ICUdata` voor de exacte bestandsnaam. Het is een alleen-lezen database om onbedoelde wijzigingen te voorkomen. Om de data te bewerken kun je deze inlezen in scripts en daar aanpassen, opslaan in je eigen map, etc.
 
 De database kan worden gequeryed met standaard SQL, met kleine variaties door DuckDB-syntax. Het omzetten van andere SQL-talen naar DuckDB met behulp van LLMs werkt over het algemeen goed. Tabellen hebben het prefix `icudata`.
 
@@ -17,8 +17,8 @@ De database kan worden gequeryed met standaard SQL, met kleine variaties door Du
 ## Toegang tot de database
 
 ### Terminaltoegang
-- Gebruik `harlequin /home/ICUData/ICUdata<versie> -readonly` voor een terminaloverzicht dat de databasestructuur duidelijk weergeeft.
-- Gebruik `duckdb /home/ICUData/ICUdata<versie> -readonly` voor snellere queries.
+- Gebruik `harlequin /home/ICUdata/ICUdata_<versie> -readonly` voor een terminaloverzicht dat de databasestructuur duidelijk weergeeft.
+- Gebruik `duckdb /home/ICUdata/ICUdata_<versie> -readonly` voor snellere queries.
 
 ### Scripttoegang
 - Importeer in Python- of R-scripts de DuckDB-bibliotheek om met de database te werken. **Open de database altijd in alleen-lezen modus:**
@@ -26,13 +26,13 @@ De database kan worden gequeryed met standaard SQL, met kleine variaties door Du
   **Python:**
   ```python
   import duckdb
-  con = duckdb.connect("/home/ICUData/ICUdata<versie>", read_only=True)
+  con = duckdb.connect("/home/ICUdata/ICUdata_<versie>", read_only=True)
   ```
 
   **R:**
   ```r
   library(duckdb)
-  con <- dbConnect(duckdb(), dbdir = "/home/ICUData/ICUdata<versie>", read_only = TRUE)
+  con <- dbConnect(duckdb(), dbdir = "/home/ICUdata/ICUdata_<versie>", read_only = TRUE)
 
   # Voer een query uit
   dbGetQuery(con, "SELECT 42 AS answer")

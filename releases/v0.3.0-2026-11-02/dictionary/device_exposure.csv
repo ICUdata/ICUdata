@@ -1,0 +1,58 @@
+concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,concept_code,table_name,concept_column,record_count,patient_count,patient_coverage_pct,coverage_Amsterdam UMC,coverage_Amsterdams Medisch Centrum,coverage_Catharina Ziekenhuis Eindhoven,coverage_Franciscus Gasthuis,coverage_Frisius Medisch Centrum,coverage_OLVG,coverage_Radboudumc,coverage_UMC Utrecht,coverage_Vrije Universiteit Medisch Centrum
+4124377,Venous catheter,Device,SNOMED,Physical Object,303728004,device_exposure,device_concept_id,164757,63574,49.56921085666612,68.31605094034617,,86.32256297918948,8.979089790897909,,,68.5480093676815,95.83878565820466,97.22334004024145
+4336080,Packed red blood cells,Device,SNOMED,Pharma/Biol Product,431069006,device_exposure,device_concept_id,139173,34746,27.091763935346542,19.705870756613965,29.899668809662966,11.651150054764512,8.179581795817958,18.403197323171298,24.94517543859649,14.642857142857142,13.713687516356975,29.38128772635815
+4070667,Urinary catheter,Device,SNOMED,Physical Object,20568009,device_exposure,device_concept_id,109129,84256,65.6951494312024,70.03509048614123,86.98616793298267,72.78203723986857,7.380073800738008,88.38181987173529,,38.840749414519905,91.36351740382099,89.84909456740442
+4121351,Chest drain,Device,SNOMED,Physical Object,258643002,device_exposure,device_concept_id,89343,55759,43.47578614145478,36.774040925757994,42.03682057276446,48.39813800657174,8.85608856088561,56.269169997211634,55.45047514619883,32.921545667447305,13.425804763151008,45.29175050301811
+4097216,Endotracheal tube,Device,SNOMED,Physical Object,26412008,device_exposure,device_concept_id,82733,67934,52.96874147193438,24.697393841422546,76.46113383985973,63.30777656078861,,15.30811413700158,79.37682748538012,17.652224824355972,73.22690395184506,72.4195171026157
+4118298,Arterial catheter,Device,SNOMED,Physical Object,303727009,device_exposure,device_concept_id,55372,38803,30.25504276703079,45.739857272404684,,,,,,28.214285714285715,91.25883276629155,88.09859154929578
+4063122,Nasogastric tube,Device,SNOMED,Physical Object,17102003,device_exposure,device_concept_id,52900,32583,25.40525367827653,,,17.223439211391018,23.370233702337025,40.784459522260434,81.52869152046783,32.61124121779859,39.20439675477623,1.2022132796780685
+4103791,Plasma product,Device,SNOMED,Pharma/Biol Product,256400005,device_exposure,device_concept_id,35430,11540,8.997840206466906,4.948152821038521,13.135593220338983,2.0536692223439212,2.1525215252152523,1.8031415559066828,9.256213450292398,2.5585480093676813,17.822559539387594,11.378269617706238
+4179206,Central venous catheter,Device,SNOMED,Physical Object,52124006,device_exposure,device_concept_id,33559,26481,20.647470234614396,29.8860544888223,2.0504578219364893,63.03395399780942,,,,,,66.66498993963782
+4103615,Platelet product,Device,SNOMED,Pharma/Biol Product,256395009,device_exposure,device_concept_id,29070,11695,9.118695079257405,7.980128533690809,10.865965322423534,1.793537787513691,1.3530135301353015,4.94469746258946,,5.322014051522248,10.206752159120649,8.224346076458753
+4119547,Wound drain,Device,SNOMED,Physical Object,258646005,device_exposure,device_concept_id,24711,14160,11.040677411054713,6.876158183180223,,8.762322015334064,,46.39836416023794,,,15.022245485475006,27.022132796780685
+45772272,Nasogastric feeding tube,Device,SNOMED,Physical Object,465037000,device_exposure,device_concept_id,24252,14027,10.936976133111896,,,1.5744797371303396,,,,,,69.71327967806842
+4139147,Drain,Device,SNOMED,Physical Object,32712000,device_exposure,device_concept_id,8401,5622,4.3835231924399425,,,,,,,29.830210772833723,,
+4044008,Tracheostomy tube,Device,SNOMED,Physical Object,129121000,device_exposure,device_concept_id,8386,4599,3.585881032022643,4.147774316918346,6.472822910578609,0.4654983570646221,2.890528905289053,1.8217306441119063,2.759502923976608,0.351288056206089,,5.840040241448692
+4126195,Arterial line,Device,SNOMED,Physical Object,261241001,device_exposure,device_concept_id,6647,5792,4.5160736980811365,,,73.15169769989048,6.211562115621156,,,,,1.529175050301811
+45758297,"Negative-pressure wound therapy system, line-powered",Device,SNOMED,Physical Object,462927002,device_exposure,device_concept_id,6598,4681,3.649817158273101,16.65418128770256,,,,,,,,
+2000000482,Arterial sheath,Device,ICUdata,Observable Entity,2000000482,device_exposure,device_concept_id,5327,4542,3.541437627190007,2.0068603871781727,,3.929353778751369,,4.963286550794684,1.2883771929824561,,,2.10261569416499
+37116783,"Therapeutic fecal matter collection container, non-sterile",Device,SNOMED,Physical Object,733702008,device_exposure,device_concept_id,5099,2854,2.225289077058626,10.893821708788392,,,,,,,,
+4262295,Pulmonary artery catheter,Device,SNOMED,Physical Object,397755005,device_exposure,device_concept_id,4957,4619,3.601475209156901,1.8057800733351732,0.3798947983635301,,,,,,6.54278984559016,19.15995975855131
+605914,Continuous positive airway pressure bilevel positive airway pressure face mask,Device,SNOMED,Physical Object,1141760009,device_exposure,device_concept_id,4915,1554,1.2116675633318519,,,,,,5.199195906432749,,,2.0824949698189137
+4265605,Dialysis catheter,Device,SNOMED,Physical Object,397849009,device_exposure,device_concept_id,3267,2181,1.7005450164908422,2.9886054488822302,,1.793537787513691,,,,,,5.845070422535211
+36674387,Nasoduodenal feeding tube,Device,SNOMED,Physical Object,773725001,device_exposure,device_concept_id,2729,1922,1.4986004226022003,3.2882545440208175,,,2.952029520295203,2.555999628218236,,,2.8788275320596703,0.9758551307847082
+4148006,Epidural catheter,Device,SNOMED,Physical Object,30610008,device_exposure,device_concept_id,2669,2537,1.9781213694806359,,,3.956736035049288,4.120541205412054,,4.3722587719298245,1.949648711943794,4.422925935618948,3.329979879275654
+45768119,External cardiac pacemaker,Device,SNOMED,Physical Object,706005008,device_exposure,device_concept_id,2641,2504,1.9523909772091101,,,10.884446878422782,,,,,,8.435613682092555
+4231009,Cardiac pacemaker electrode,Device,SNOMED,Physical Object,360125003,device_exposure,device_concept_id,2606,2370,1.847909990409581,6.071836927808224,,,,,,,16.618686207799005,
+4161814,Peripherally inserted central catheter,Device,SNOMED,Physical Object,398176008,device_exposure,device_concept_id,2316,1860,1.4502584734860002,2.0108031384299965,,0.8899233296823659,3.6285362853628538,,,,3.533106516618686,
+45758721,Mediastinal drain,Device,SNOMED,Physical Object,463571002,device_exposure,device_concept_id,1699,1522,1.186716879917039,,,,,,,,39.83250457995289,
+4178391,Heat and moisture exchanger,Device,SNOMED,Physical Object,297117007,device_exposure,device_concept_id,1457,527,0.4109065674877001,,,,,,,,,2.640845070422535
+4224054,Fecal collector,Device,SNOMED,Physical Object,339133003,device_exposure,device_concept_id,1186,773,0.6027149462390743,,,,,,,,,3.8732394366197185
+4225137,Colostomy bag,Device,SNOMED,Physical Object,339648008,device_exposure,device_concept_id,1169,1050,0.8186942995485486,0.9304892954303513,,1.3143483023001095,,0.6413235430802119,,,,1.4738430583501005
+45763425,Gastrostomy tube,Device,SNOMED,Physical Object,470571004,device_exposure,device_concept_id,1027,921,0.7181118570325841,1.1039703505105862,,,,0.6320289989776001,,0.5210772833723654,0.7589636220884585,
+4117709,Suprapubic catheter,Device,SNOMED,Physical Object,286861005,device_exposure,device_concept_id,933,715,0.5574918325497259,,2.0212351451392947,,,,,,,1.4537223340040242
+4082555,Antithromboembolic stockings,Device,SNOMED,Physical Object,183144004,device_exposure,device_concept_id,892,830,0.6471583510717098,,,,,,,,,4.164989939637827
+45763519,Hyperthermia system temperature mapping unit,Device,SNOMED,Physical Object,470704008,device_exposure,device_concept_id,842,577,0.44989201032334525,,,,,,2.6361476608187133,,,
+36676722,Nasojejunal feeding tube,Device,SNOMED,Physical Object,773703007,device_exposure,device_concept_id,778,629,0.4904368708724162,,,0.9309967141292442,,,1.7041301169590644,,3.2190526040303586,
+2000000490,Venous sheath,Device,ICUdata,Observable Entity,2000000490,device_exposure,device_concept_id,700,615,0.4795209468784356,0.709695225328234,,1.067907995618839,,,,,,0.9758551307847082
+2000000492,Sideport,Device,ICUdata,Observable Entity,2000000492,device_exposure,device_concept_id,537,520,0.40544860549070977,2.0108031384299965,,,,,,,,
+2000001322,Subcutaneous catheter port,Device,ICUdata,Observable Entity,2000001322,device_exposure,device_concept_id,506,367,0.28615315041363554,0.603240941528999,,,,,,,,
+605799,Tracheostomy tube cannula,Device,SNOMED,Physical Object,1137710007,device_exposure,device_concept_id,470,331,0.258083631571971,,,,,1.6823124825727298,,,3.637791154148129,
+4266238,Nasopharyngeal airway device,Device,SNOMED,Physical Object,61330002,device_exposure,device_concept_id,398,326,0.2541850872884065,,,,,,1.4894005847953216,,,
+4218999,Ileostomy bag,Device,SNOMED,Physical Object,417136005,device_exposure,device_concept_id,348,310,0.24170974558100006,0.7530654890982927,,,,,,,,
+2000000539,Jejunostomy,Device,ICUdata,Observable Entity,2000000539,device_exposure,device_concept_id,267,261,0.2035040116020678,,,,,0.28813086718096476,,0.49765807962529274,,
+4225145,Urostomy bag,Device,SNOMED,Physical Object,344088002,device_exposure,device_concept_id,254,243,0.18946925218123553,,,0.9036144578313253,,,,0.21662763466042154,,
+4106029,Laryngeal mask,Device,SNOMED,Physical Object,257268009,device_exposure,device_concept_id,244,189,0.14736497391873873,,,0.39704271631982474,1.4145141451414514,,,,,
+45758151,Pericardium drainage catheter,Device,SNOMED,Physical Object,462698001,device_exposure,device_concept_id,206,202,0.1575011890560065,,,2.423329682365827,,,,,,
+2000001324,Vascular closure device,Device,ICUdata,Observable Entity,2000001324,device_exposure,device_concept_id,193,175,0.1364490499247581,,,2.067360350492881,,,,,,
+36717545,Wound irrigation cannula,Device,SNOMED,Physical Object,722264005,device_exposure,device_concept_id,137,126,0.09824331594582583,,,1.6292442497261774,,,,,,
+4129595,Autologous blood product,Device,SNOMED,Pharma/Biol Product,126240004,device_exposure,device_concept_id,127,81,0.06315641739374518,,,0.7256297918948521,,,,,0.7327924627060979,
+2000001325,Paravertabral catheter,Device,ICUdata,Observable Entity,2000001325,device_exposure,device_concept_id,116,116,0.0904462273786968,,,1.4649507119386638,,,,,,
+4272956,Cervical collar,Device,SNOMED,Physical Object,63562005,device_exposure,device_concept_id,112,101,0.07875059452800325,,,,,,,,,0.5080482897384306
+45762340,Drainage biliary catheter,Device,SNOMED,Physical Object,468921008,device_exposure,device_concept_id,88,74,0.057698455396754854,,,,,,,0.36885245901639346,,
+2000001238,Thrombolysis catheter,Device,ICUdata,Observable Entity,2000001238,device_exposure,device_concept_id,86,66,0.05146078454305163,,,0.8762322015334063,,,,,,
+45762688,Intravascular heating/cooling system catheter,Device,SNOMED,Physical Object,469461006,device_exposure,device_concept_id,57,56,0.04366369597592259,,,0.6161007667031764,,,,,,
+45758063,"Patient monitoring system module, cardiac output",Device,SNOMED,Physical Object,462564000,device_exposure,device_concept_id,25,23,0.017933303704396778,,,,,,,,,0.11569416498993963
+4147758,Cerebrospinal catheter,Device,SNOMED,Physical Object,35870000,device_exposure,device_concept_id,17,17,0.013255050564119358,,,,,,,0.08196721311475409,,
+45767889,Rectal catheter,Device,SNOMED,Physical Object,705541005,device_exposure,device_concept_id,14,13,0.010136215137267745,,,,0.7995079950799509,,,,,
+4236069,Peritoneal dialysis catheter,Device,SNOMED,Physical Object,360132007,device_exposure,device_concept_id,,<10,,,,,,,,,,

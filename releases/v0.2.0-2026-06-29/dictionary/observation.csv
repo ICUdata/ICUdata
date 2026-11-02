@@ -45,5 +45,5 @@ concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,concept_code,ta
 4183166,Orientation,Observation,SNOMED,Observable Entity,43173001,observation,1821,768,0.6063477025106585,,,,,,,3.2118055555555554,,,
 1073572,Rotational thromboelastometry technique,Observation,SNOMED,Qualifier Value,1306388004,observation,1403,288,0.2273803884414969,mm,,,,4.263392857142857,,,,,
 3022196,History of Other nonmedical drug use,Observation,LOINC,Clinical Observation,11343-1,observation,463,356,0.2810674246012948,,,,,,,,,,
-44808537,Assessment of ileostomy,Observation,SNOMED,Procedure,859131000000106,observation,394,341,0.2692246960366335,,,0.02759925876276466,,,,,,,
+44808537,Assessment of ileostomy,Observation,SNOMED,Procedure,859131000000106,observation,394,341,0.2692246960366335,,,,,,,,,,
 4091068,Consistency of liquor,Observation,SNOMED,Observable Entity,249133002,observation,220,155,0.12237486183483341,,,,,,,0.5254020467836257,,,

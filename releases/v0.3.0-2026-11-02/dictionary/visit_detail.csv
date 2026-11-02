@@ -1,0 +1,16 @@
+concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,concept_code,table_name,concept_column,record_count,patient_count,patient_coverage_pct,coverage_Amsterdam UMC,coverage_Amsterdams Medisch Centrum,coverage_Catharina Ziekenhuis Eindhoven,coverage_Franciscus Gasthuis,coverage_Frisius Medisch Centrum,coverage_OLVG,coverage_Radboudumc,coverage_UMC Utrecht,coverage_Vrije Universiteit Medisch Centrum
+45878574,Operating room,Meas Value,LOINC,Answer,LA7222-8,visit_detail,visit_detail_concept_id,7421,5419,4.225242294527224,10.180183732208334,,,,7.714471605167766,,11.750585480093676,,
+21498471,Cardiac Catheterization Lab,Meas Value,LOINC,Answer,LA24168-9,visit_detail,visit_detail_concept_id,564,484,0.37737908664904524,0.5322714189961756,,,,,,2.0433255269320845,,
+45882979,Endoscopy,Meas Value,LOINC,Answer,LA9463-6,visit_detail,visit_detail_concept_id,110,89,0.0693940882474484,0.05519851752552932,,,,,,0.43911007025761123,,
+706470,Emergency department,Meas Value,LOINC,Doc Setting,LP173043-3,visit_detail,visit_detail_concept_id,30,17,0.013255050564119358,,,,,,,,,
+45878057,Same Day/Ambulatory Surgery,Meas Value,LOINC,Answer,LA10277-4,visit_detail,visit_detail_concept_id,17,17,0.013255050564119358,,,,,,,0.09953161592505855,,
+45879108,Pre-Op Holding,Meas Value,LOINC,Answer,LA10275-8,visit_detail,visit_detail_concept_id,,<10,,,,,,,,,,
+2001000015,Medium care unit,Observation,ICUdata,Observable Entity,2001000015,visit_detail,visit_detail_concept_id,27979,22109,17.23858311306558,16.985372392855734,27.956360802649524,,,,,38.13817330210773,,27.90241448692153
+4021813,Operating room,Observation,SNOMED,Location,225738002,visit_detail,visit_detail_concept_id,8604,6424,5.008849695523692,,,7.54381161007667,41.94341943419434,,,,,
+4228759,Ophthalmic surgery,Observation,SNOMED,Qualifier Value,422191005,visit_detail,visit_detail_concept_id,22,21,0.016373885990970973,,,,,,,0.12295081967213115,,
+4148645,Endoscopy service,Observation,SNOMED,Qualifier Value,310030000,visit_detail,visit_detail_concept_id,14,13,0.010136215137267745,,,,,0.12082907333395297,,,,
+4086802,Patient temporarily left,Observation,SNOMED,Clinical Finding,184087005,visit_detail,visit_detail_concept_id,,<10,,,,,,,,,,
+2001000024,Same Day treatment unit,Observation,ICUdata,Observable Entity,2001000024,visit_detail,visit_detail_concept_id,,<10,,,,,,,,,,
+2001000026,Hemapharesis room,Observation,ICUdata,Observable Entity,2001000026,visit_detail,visit_detail_concept_id,,<10,,,,,,,,,,
+4223020,Cardiac catheterization,Procedure,SNOMED,Procedure,41976001,visit_detail,visit_detail_concept_id,234,213,0.16607798647984842,,,,,1.9797378938563064,,,,
+32037,Intensive Care,Visit,Visit,Visit,OMOP4822460,visit_detail,visit_detail_concept_id,152947,117265,91.43255908243862,93.18692583684896,91.47184882135204,100.0,100.0,100.0,100.0,83.98126463700234,100.0,75.99094567404427
