@@ -6,9 +6,7 @@
 2. Open your ICUdata workspace.
 3. Go to "Files".
 4. Click "Upload files". The folder you pick does not matter: every upload goes to an inbox.
-5. Upload the files:
-   - directly from your computer, for relatively small files; or
-   - with Azure Storage Explorer, for large files. Install Azure Storage Explorer on your computer first.
+5. Upload the files directly from your computer.
 6. After a few minutes you receive a confirmation e-mail.
 
 On the Linux VM, the upload arrives in `/mnt/inbox` or `/mnt/data/inbox`, in a folder named `transfer-<date>-<time>-<username>`. When it has arrived, move that folder out of the inbox, for example to your own folder, so that only new uploads stay in the inbox:

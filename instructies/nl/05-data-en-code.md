@@ -6,9 +6,7 @@
 2. Open je ICUdata-werkruimte.
 3. Ga naar "Files".
 4. Klik op "Upload files". Welke map je kiest, maakt niet uit: elke upload komt in een inbox terecht.
-5. Upload de bestanden:
-   - rechtstreeks vanaf je computer, voor relatief kleine bestanden; of
-   - met Azure Storage Explorer, voor grote bestanden. Installeer Azure Storage Explorer eerst op je computer.
+5. Upload de bestanden rechtstreeks vanaf je computer.
 6. Na een paar minuten krijg je een bevestigingsmail.
 
 Op de Linux VM komt de upload aan in `/mnt/inbox` of `/mnt/data/inbox`, in een map met de naam `transfer-<datum>-<tijd>-<gebruikersnaam>`. Verplaats die map uit de inbox zodra hij is aangekomen, bijvoorbeeld naar je eigen map, zodat alleen nieuwe uploads in de inbox blijven staan:
