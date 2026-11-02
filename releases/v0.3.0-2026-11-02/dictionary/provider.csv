@@ -1,0 +1,51 @@
+concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,concept_code,table_name,concept_column,record_count,patient_count,patient_coverage_pct
+1621272,Other/unspecified,Meas Value,LOINC,Answer,LA32520-1,provider,specialty_concept_id,63,63,0.049121657972912916
+45883627,Other (not listed),Meas Value,LOINC,Answer,LA17059-9,provider,specialty_concept_id,36,36,0.02806951884166452
+37079538,Immunology,Meas Value,LOINC,Doc Subject Matter,LP345043-6,provider,specialty_concept_id,,<10,
+4252365,Thoracic surgery,Observation,SNOMED,Qualifier Value,408456005,provider,specialty_concept_id,12980,12025,9.375999001972664
+4192658,Neurology,Observation,SNOMED,Qualifier Value,394591006,provider,specialty_concept_id,35,35,0.02728980998495162
+38004473,Thoracic Surgery,Provider,Medicare Specialty,Physician Specialty,33,provider,specialty_concept_id,41617,34039,26.54050977365052
+38004447,General Surgery,Provider,Medicare Specialty,Physician Specialty,2,provider,specialty_concept_id,21977,16222,12.64843707359672
+38004451,Cardiology,Provider,Medicare Specialty,Physician Specialty,6,provider,specialty_concept_id,14519,12917,10.071499302160573
+38004456,Internal Medicine,Provider,Medicare Specialty,Physician Specialty,11,provider,specialty_concept_id,13366,11518,8.980686611619221
+38004472,Pulmonary Disease,Provider,Medicare Specialty,Physician Specialty,29,provider,specialty_concept_id,8417,7257,5.65834717316554
+38004459,Neurosurgery,Provider,Medicare Specialty,Physician Specialty,14,provider,specialty_concept_id,7766,6916,5.39246645302644
+38004458,Neurology,Provider,Medicare Specialty,Physician Specialty,13,provider,specialty_concept_id,7657,7028,5.4797938449782855
+38004455,Gastroenterology,Provider,Medicare Specialty,Physician Specialty,10,provider,specialty_concept_id,3962,3353,2.614363796558365
+38004016,Trauma Surgery Physician,Provider,NUCC,Physician Specialty,2086S0127X,provider,specialty_concept_id,3457,3330,2.5964304928539685
+38004496,Vascular Surgery,Provider,Medicare Specialty,Physician Specialty,77,provider,specialty_concept_id,2634,2324,1.8120433830007876
+38004500,Critical care (intensivist),Provider,Medicare Specialty,Physician Specialty,81,provider,specialty_concept_id,2525,2390,1.863504167543839
+38004474,Urology,Provider,Medicare Specialty,Physician Specialty,34,provider,specialty_concept_id,2180,1687,1.315368841274668
+38004461,Obstetrics / Gynecology,Provider,Medicare Specialty,Physician Specialty,16,provider,specialty_concept_id,1735,1255,0.9785346151746938
+38004465,Orthopedic Surgery,Provider,Medicare Specialty,Physician Specialty,20,provider,specialty_concept_id,1663,1344,1.0479287034221423
+38004479,Nephrology,Provider,Medicare Specialty,Physician Specialty,39,provider,specialty_concept_id,1595,1366,1.065082298269826
+38004449,Otolaryngology,Provider,Medicare Specialty,Physician Specialty,4,provider,specialty_concept_id,1466,1299,1.0128418048700616
+38004501,Hematology,Provider,Medicare Specialty,Physician Specialty,82,provider,specialty_concept_id,1340,1129,0.880291299228868
+38004510,Emergency Medicine,Provider,Medicare Specialty,Physician Specialty,93,provider,specialty_concept_id,1214,1156,0.9013434383601163
+38004507,Medical Oncology,Provider,Medicare Specialty,Physician Specialty,90,provider,specialty_concept_id,1118,1042,0.8124566286948454
+38004469,Psychiatry,Provider,Medicare Specialty,Physician Specialty,26,provider,specialty_concept_id,561,520,0.40544860549070977
+38004484,Infectious Disease,Provider,Medicare Specialty,Physician Specialty,44,provider,specialty_concept_id,426,382,0.2978487832643291
+38004478,Geriatric Medicine,Provider,Medicare Specialty,Physician Specialty,38,provider,specialty_concept_id,411,394,0.30720528954488396
+38004504,Maxillofacial Surgery,Provider,Medicare Specialty,Physician Specialty,85,provider,specialty_concept_id,331,301,0.23469236587058392
+38004467,Plastic And Reconstructive Surgery,Provider,Medicare Specialty,Physician Specialty,24,provider,specialty_concept_id,315,244,0.19024896103794842
+38004508,Surgical Oncology,Provider,Medicare Specialty,Physician Specialty,91,provider,specialty_concept_id,292,267,0.20818226474234522
+38004509,Radiation Oncology,Provider,Medicare Specialty,Physician Specialty,92,provider,specialty_concept_id,285,276,0.21519964445276135
+38004463,Ophthalmology,Provider,Medicare Specialty,Physician Specialty,18,provider,specialty_concept_id,257,237,0.1847909990409581
+38004452,Dermatology,Provider,Medicare Specialty,Physician Specialty,7,provider,specialty_concept_id,196,191,0.14892439163216456
+38003826,Oral & Maxillofacial Surgery (D.M.D.),Provider,NUCC,Physician Specialty,204E00000X,provider,specialty_concept_id,194,189,0.14736497391873873
+38004468,Physical Medicine And Rehabilitation,Provider,Medicare Specialty,Physician Specialty,25,provider,specialty_concept_id,163,163,0.12709254364420325
+38004491,Rheumatology,Provider,Medicare Specialty,Physician Specialty,66,provider,specialty_concept_id,157,146,0.1138374930800839
+38004485,Endocrinology,Provider,Medicare Specialty,Physician Specialty,46,provider,specialty_concept_id,108,103,0.08031001224142904
+38004450,Anesthesiology,Provider,Medicare Specialty,Physician Specialty,5,provider,specialty_concept_id,107,100,0.07797088567129035
+38004494,Pain Management,Provider,Medicare Specialty,Physician Specialty,72,provider,specialty_concept_id,37,37,0.028849227698377427
+38004675,Physician / Diagnostic Radiology,Provider,Medicare Specialty,Physician Specialty,30,provider,specialty_concept_id,22,19,0.014814468277545165
+38003876,Hepatology Physician,Provider,NUCC,Physician Specialty,207RI0008X,provider,specialty_concept_id,15,15,0.011695632850693551
+38004513,Gynecology / Oncology,Provider,Medicare Specialty,Physician Specialty,98,provider,specialty_concept_id,14,13,0.010136215137267745
+38004462,Hospice And Palliative Care,Provider,Medicare Specialty,Physician Specialty,17,provider,specialty_concept_id,10,10,0.007797088567129034
+38004477,Pediatric Medicine,Provider,Medicare Specialty,Physician Specialty,37,provider,specialty_concept_id,,<10,
+38004511,Interventional Radiology,Provider,Medicare Specialty,Physician Specialty,94,provider,specialty_concept_id,,<10,
+38004448,Allergy / Immunology,Provider,Medicare Specialty,Physician Specialty,3,provider,specialty_concept_id,,<10,
+38003680,Oral and Maxillofacial Surgery (Dentist),Provider,NUCC,Provider,1223S0112X,provider,specialty_concept_id,,<10,
+38004476,Nuclear Medicine,Provider,Medicare Specialty,Physician Specialty,36,provider,specialty_concept_id,,<10,
+38004488,Psychology,Provider,Medicare Specialty,Provider,62,provider,specialty_concept_id,,<10,
+903277,Dentistry,Provider,Medicare Specialty,Physician Specialty,C5,provider,specialty_concept_id,,<10,

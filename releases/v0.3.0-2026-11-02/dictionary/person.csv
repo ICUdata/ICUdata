@@ -1,0 +1,3 @@
+concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,concept_code,table_name,concept_column,record_count,patient_count,patient_coverage_pct
+8507,MALE,Gender,Gender,Gender,M,person,gender_concept_id,82780,82780,64.54429915869414
+8532,FEMALE,Gender,Gender,Gender,F,person,gender_concept_id,44605,44605,34.778913553679054

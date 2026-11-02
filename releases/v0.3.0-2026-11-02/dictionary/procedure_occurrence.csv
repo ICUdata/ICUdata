@@ -1,0 +1,552 @@
+concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,concept_code,table_name,concept_column,record_count,patient_count,patient_coverage_pct,coverage_Amsterdam UMC,coverage_Amsterdams Medisch Centrum,coverage_Catharina Ziekenhuis Eindhoven,coverage_Franciscus Gasthuis,coverage_Frisius Medisch Centrum,coverage_OLVG,coverage_Radboudumc,coverage_UMC Utrecht,coverage_Vrije Universiteit Medisch Centrum
+4239191,Tracheobronchial suctioning,Procedure,SNOMED,Procedure,68187007,procedure_occurrence,procedure_concept_id,646898,27805,21.67980476090228,34.86574931987541,6.506916033508669,19.48247535596933,12.853628536285363,7.147504414908449,,40.497658079625296,34.912326616069095,34.35110663983903
+4163872,Plain X-ray of chest,Procedure,SNOMED,Procedure,399208008,procedure_occurrence,procedure_concept_id,105960,31308,24.41112488596758,,,,7.318573185731857,,91.17324561403508,,,56.438631790744466
+4143247,"Respiratory assist, manual, using bag-valve-mask",Procedure,SNOMED,Procedure,425696007,procedure_occurrence,procedure_concept_id,97127,10691,8.33586738711765,19.89906556795332,,,0.922509225092251,,,,,28.153923541247487
+4254906,Tracheostomy care assessment,Procedure,SNOMED,Procedure,410211008,procedure_occurrence,procedure_concept_id,88456,2882,2.2471209250465876,,6.419248003117086,,,,,4.197892271662764,,4.069416498993964
+4336464,Coronary artery bypass graft,Procedure,SNOMED,Procedure,232717009,procedure_occurrence,procedure_concept_id,57075,24248,18.90638035757448,13.705003351338563,6.477693356711475,0.39704271631982474,,30.98801003810763,31.980994152046783,14.847775175644028,20.413504318241298,17.590543259557343
+4336459,Nasopharyngeal suction,Procedure,SNOMED,Procedure,232701003,procedure_occurrence,procedure_concept_id,52445,4549,3.5468955891869975,,,,,,,,,22.826961770623743
+4021015,Alternating the patient's position,Procedure,SNOMED,Procedure,225286008,procedure_occurrence,procedure_concept_id,50738,10661,8.312476121416264,36.85683870204629,,,5.719557195571956,,,,,
+2000000959,Manual bag ventilation,Procedure,ICUdata,Observable Entity,2000000959,procedure_occurrence,procedure_concept_id,50030,3958,3.086087654869672,,,,,,,21.39344262295082,7.7990054959434705,
+1075181,Plain X-ray of thoracic cage,Procedure,SNOMED,Procedure,1295210009,procedure_occurrence,procedure_concept_id,43913,17464,13.616835473634145,,46.001363724917205,3.546002190580504,,,,,,38.898390342052316
+2000000995,Sputum culture collection,Procedure,ICUdata,Observable Entity,2000000995,procedure_occurrence,procedure_concept_id,33722,13188,10.28280040232977,,,,3.3825338253382533,,40.095029239766085,,,21.866197183098592
+4258502,Tube care: endotracheal,Procedure,SNOMED,Procedure,409088002,procedure_occurrence,procedure_concept_id,29878,7021,5.474335882981295,,34.122345606857586,,,,,,,
+4095407,Replacement of aortic valve,Procedure,SNOMED,Procedure,26212005,procedure_occurrence,procedure_concept_id,23316,10431,8.133143084372296,9.09986988920869,3.628482368984999,,,8.829816897481178,13.697002923976608,8.870023419203747,7.144726511384454,5.829979879275654
+4021519,Changing endotracheal tube tapes,Procedure,SNOMED,Procedure,225721001,procedure_occurrence,procedure_concept_id,21272,7986,6.226754929709246,7.830303986121516,1.3637249172024157,,,0.7063853517984943,14.332054093567251,,,12.349094567404427
+44791135,Ventilatory support,Procedure,SNOMED,Procedure,231821000000109,procedure_occurrence,procedure_concept_id,18127,14598,11.382189890294963,,,,0.6150061500615006,,,,,73.33501006036218
+4300828,Wound care management,Procedure,SNOMED,Procedure,385942004,procedure_occurrence,procedure_concept_id,17869,1280,0.9980273365925163,,,,26.814268142681428,,,,,4.094567404426559
+37018292,Continuous renal replacement therapy,Procedure,SNOMED,Procedure,714749008,procedure_occurrence,procedure_concept_id,17599,1508,1.1758009559230582,5.192603398651579,,,,,,,4.422925935618948,
+4241849,Sitting a patient up in a chair,Procedure,SNOMED,Procedure,59408004,procedure_occurrence,procedure_concept_id,15604,4152,3.237351173071975,,,50.013691128148956,30.44280442804428,,,,,
+4012185,Cardiovascular surgical procedure,Procedure,SNOMED,Procedure,112802009,procedure_occurrence,procedure_concept_id,11933,7355,5.734758641123404,3.702243425462288,15.634132086499124,,,1.9797378938563064,0.8863304093567251,0.4274004683840749,3.1667102852656375,2.7062374245472838
+4148972,Extubation of trachea,Procedure,SNOMED,Procedure,309812005,procedure_occurrence,procedure_concept_id,9689,8780,6.845843761939292,,40.50750048704462,,,,,,,2.2987927565392354
+4013354,Insertion of endotracheal tube,Procedure,SNOMED,Procedure,112798008,procedure_occurrence,procedure_concept_id,9036,5748,4.4817665083857685,11.18164255017151,5.742255990648744,2.8203723986856515,11.808118081180812,0.2974254112835765,1.2929459064327486,,,4.642857142857143
+4302381,Physical restraint,Procedure,SNOMED,Procedure,386423001,procedure_occurrence,procedure_concept_id,7674,2832,2.2081354822109422,,,,,4.15466121386746,,2.078454332552693,,6.785714285714286
+4249161,Operation on heart valve,Procedure,SNOMED,Procedure,73544002,procedure_occurrence,procedure_concept_id,6978,4041,3.1508034899768425,0.8910617829121161,9.302552113773622,0.3148959474260679,,,,,,3.46579476861167
+44808672,Placing in supine position,Procedure,SNOMED,Procedure,859421000000104,procedure_occurrence,procedure_concept_id,6955,1966,1.532907612297568,,,26.88937568455641,,,,,,
+2000001118,Left side body position,Procedure,ICUdata,Observable Entity,2000001118,procedure_occurrence,procedure_concept_id,6672,1007,0.7851668187098937,,,13.77327491785323,,,,,,
+4297235,Repair of mitral valve,Procedure,SNOMED,Procedure,384641003,procedure_occurrence,procedure_concept_id,6615,2599,2.026463318596836,1.7308677995505264,0.7110851353984025,,,2.4630541871921183,5.829678362573099,1.1124121779859484,2.1198639099712118,0.6841046277665996
+4051330,Continuous venovenous hemofiltration,Procedure,SNOMED,Procedure,233585000,procedure_occurrence,procedure_concept_id,5865,1361,1.0611837539862616,0.867405275401175,,1.2732749178532312,2.5830258302583027,,,,,5.045271629778672
+2000001119,Right side body position,Procedure,ICUdata,Observable Entity,2000001119,procedure_occurrence,procedure_concept_id,5847,1051,0.8194740084052615,,,13.211938663745892,5.043050430504305,,,,,
+4172820,Elevation of head of bed,Procedure,SNOMED,Procedure,423171007,procedure_occurrence,procedure_concept_id,5707,1806,1.4081541952235035,,,24.698795180722893,,,,,,
+37158404,Invasive mechanical ventilation,Procedure,SNOMED,Procedure,1258985005,procedure_occurrence,procedure_concept_id,5565,4920,3.836167575027485,,,58.00930996714129,40.95940959409594,,,,,
+4206116,Patient warming therapy,Procedure,SNOMED,Procedure,309433007,procedure_occurrence,procedure_concept_id,4770,3295,2.569140682869017,,,,,,,,,16.569416498993963
+4203153,Replacement of mitral valve,Procedure,SNOMED,Procedure,53059001,procedure_occurrence,procedure_concept_id,4670,1828,1.4253077900711875,1.1709971217915862,0.5795830898110267,,,1.0131053071846825,3.7235014619883042,1.0128805620608898,1.5440984035592777,0.8551307847082495
+4046287,Fixation and immobilization,Procedure,SNOMED,Procedure,133859009,procedure_occurrence,procedure_concept_id,4595,2874,2.2408832541928843,,,,8.61008610086101,,,9.888758782201405,2.1198639099712118,
+44790388,Nebuliser ventilation,Procedure,SNOMED,Procedure,233351000000109,procedure_occurrence,procedure_concept_id,4543,642,0.500573086009684,,,,0.922509225092251,,,,16.38314577335776,
+2000000530,Extubation order,Procedure,ICUdata,Observable Entity,2000000530,procedure_occurrence,procedure_concept_id,3723,3543,2.7625084793338166,,0.27274498344048315,46.440306681270535,5.781057810578106,,,,,
+4219502,Sedation,Procedure,SNOMED,Procedure,72641008,procedure_occurrence,procedure_concept_id,3626,3354,2.615143505415078,,,,,,,19.53161592505855,,
+40490927,Craniotomy and excision of neoplasm of brain,Procedure,SNOMED,Procedure,447107001,procedure_occurrence,procedure_concept_id,3452,842,0.6565148573522647,0.25233608011670544,0.1948178453146308,,,,,1.1768149882903982,3.349908400942162,1.619718309859155
+4170058,Operation on esophagus,Procedure,SNOMED,Procedure,48114000,procedure_occurrence,procedure_concept_id,3392,1415,1.1032880322487584,0.35879036391594055,1.2224819793493085,,,1.8403197323171299,,1.211943793911007,2.9573410102067523,1.5442655935613683
+4148948,Vascular surgery procedure,Procedure,SNOMED,Procedure,30904006,procedure_occurrence,procedure_concept_id,2874,1603,1.2498732973107842,0.536214170247999,3.6577050457821936,,,0.40895994051491774,0.7355628654970761,0.28688524590163933,0.5495943470295734,1.3531187122736419
+4119250,Lung tumor excision,Procedure,SNOMED,Procedure,287310004,procedure_occurrence,procedure_concept_id,2608,895,0.6978394267580486,0.06702677128099988,0.05357490746152348,,6.396063960639607,1.0781671159029649,1.9142909356725146,0.7377049180327869,,0.35714285714285715
+4239130,Oxygen therapy,Procedure,SNOMED,Procedure,57485005,procedure_occurrence,procedure_concept_id,2521,2018,1.573452472846639,,,26.916757940854325,3.1365313653136533,,,,,
+4101626,Craniotomy,Procedure,SNOMED,Procedure,25353009,procedure_occurrence,procedure_concept_id,2350,999,0.7789291478561905,0.21685131885029374,3.307032924215858,,,,,,,0.7293762575452716
+4322471,Transplant of kidney,Procedure,SNOMED,Procedure,70536003,procedure_occurrence,procedure_concept_id,2192,433,0.3376139349566872,0.5007294089815874,0.058445353594389245,,,,,0.3044496487119438,,1.1167002012072436
+4165549,Operative procedure on large intestine,Procedure,SNOMED,Procedure,41141002,procedure_occurrence,procedure_concept_id,2150,853,0.6650916547761067,0.34696211016046996,0.11202026105591271,,0.8610086100861009,0.1951854261548471,0.6990131578947368,1.0480093676814988,,1.6901408450704225
+4072633,Weaning from mechanically assisted ventilation,Procedure,SNOMED,Procedure,243174005,procedure_occurrence,procedure_concept_id,2027,353,0.2752372264196549,0.06702677128099988,0.0487044613286577,2.368565169769989,3.1980319803198034,,0.09594298245614036,0.3337236533957845,,
+4168133,Incision of trachea,Procedure,SNOMED,Procedure,48387007,procedure_occurrence,procedure_concept_id,1993,1363,1.0627431716996874,2.4563340298860545,1.6900448081044224,,1.1070110701107012,,,,3.5069353572363258,1.1569416498993963
+4275564,Operation on heart,Procedure,SNOMED,Procedure,64915003,procedure_occurrence,procedure_concept_id,1889,816,0.6362424270777292,0.8713480266529985,0.23865186051042275,,,0.5855562784645413,1.402595029239766,0.2927400468384075,1.8581523161476052,0.1358148893360161
+4145308,12 lead ECG,Procedure,SNOMED,Procedure,268400002,procedure_occurrence,procedure_concept_id,1867,1224,0.9543636406165937,,,16.744249726177436,,,,,,
+4086433,Active cooling of patient,Procedure,SNOMED,Procedure,241741007,procedure_occurrence,procedure_concept_id,1850,1129,0.880291299228868,,,,,,,,6.228735933001832,4.476861167002012
+4045461,External drainage procedure from ventricle of brain,Procedure,SNOMED,Procedure,230869001,procedure_occurrence,procedure_concept_id,1692,1374,1.0713199691235293,,3.5262030001948177,,,,,,,2.937625754527163
+4030654,Operative procedure on digestive system,Procedure,SNOMED,Procedure,107907001,procedure_occurrence,procedure_concept_id,1609,564,0.4397557951860775,0.5835271852698813,0.35554256769920123,,2.3985239852398523,,0.9594298245614035,,0.6019366657942947,0.2414486921529175
+4177224,Non-invasive ventilation,Procedure,SNOMED,Procedure,428311008,procedure_occurrence,procedure_concept_id,1602,694,0.541117946558755,,0.4091174751607247,6.065169769989047,10.14760147601476,,,,,
+4338315,Tricuspid valve operation,Procedure,SNOMED,Procedure,232778005,procedure_occurrence,procedure_concept_id,1584,730,0.5691874654004195,0.9107755391712337,0.5211377362166374,,,,1.4756944444444444,0.07611241217798595,0.8113059408531798,0.07042253521126761
+37206832,Mechanical insufflation exsufflation,Procedure,SNOMED,Procedure,787180006,procedure_occurrence,procedure_concept_id,1502,81,0.06315641739374518,,,,,,,,2.093692750588851,
+4019540,Evacuation of intracerebral hematoma,Procedure,SNOMED,Procedure,10458001,procedure_occurrence,procedure_concept_id,1447,714,0.556712123693013,1.3484209281236448,0.4626923826222482,,,,,0.4859484777517564,0.7327924627060979,0.4426559356136821
+37157537,Positioning subject in sitting position,Procedure,SNOMED,Procedure,1230204009,procedure_occurrence,procedure_concept_id,1439,715,0.5574918325497259,,,8.967688937568456,3.5055350553505535,,,,,
+4094240,Open heart surgery,Procedure,SNOMED,Procedure,2598006,procedure_occurrence,procedure_concept_id,1430,740,0.5769845539675486,,,,,,,,,3.7122736418511066
+4299602,Operation on gastrointestinal tract,Procedure,SNOMED,Procedure,386621005,procedure_occurrence,procedure_concept_id,1425,746,0.5816628071078259,0.3390766076568229,1.4562633937268654,,0.6150061500615006,0.8272144251324473,0.4203216374269006,0.2459016393442623,0.26171159382360637,0.25653923541247486
+2000001236,Rethoracotomy,Procedure,ICUdata,Observable Entity,2000001236,procedure_occurrence,procedure_concept_id,1386,1233,0.9613810203270099,1.73481055080235,0.3506721215663355,1.1089813800657173,,,,1.6861826697892273,,
+4312194,Repair of heart valve,Procedure,SNOMED,Procedure,85830006,procedure_occurrence,procedure_concept_id,1368,464,0.3617849095147872,0.16559555257658795,0.18020650691603352,,,0.6041453666697648,0.9868421052631579,0.1288056206088993,,0.2917505030181087
+4040299,Operation on stomach,Procedure,SNOMED,Procedure,16453004,procedure_occurrence,procedure_concept_id,1344,387,0.30174732754789363,0.12222528880652919,0.07305669199298656,,,0.2509526907705177,,,,1.5090543259557343
+4081119,Nil by mouth,Procedure,SNOMED,Procedure,182923009,procedure_occurrence,procedure_concept_id,1323,1061,0.8272710969723905,,,,,,,,,5.316901408450704
+40487945,Percutaneous transluminal ablation of conducting system of heart,Procedure,SNOMED,Procedure,448042001,procedure_occurrence,procedure_concept_id,1293,449,0.3500892766640936,0.13799629381382328,0.07792713812585232,,,,1.5487938596491229,0.22833723653395785,,
+4098039,Cardiac electrophysiology,Procedure,SNOMED,Procedure,252425004,procedure_occurrence,procedure_concept_id,1293,449,0.3500892766640936,0.13799629381382328,0.07792713812585232,,,,1.5487938596491229,0.22833723653395785,,
+4306073,Operation on respiratory tract,Procedure,SNOMED,Procedure,387661001,procedure_occurrence,procedure_concept_id,1152,579,0.4514514280367711,0.18136655758388204,0.9984414572374829,,,0.23236360256529418,0.4157529239766082,0.3044496487119438,,0.4879275653923541
+4020216,Revision of bypass for coronary artery,Procedure,SNOMED,Procedure,175036008,procedure_occurrence,procedure_concept_id,1144,443,0.3454110235238162,0.11828253755470568,0.19968829144749659,,,0.3624872200018589,0.7538377192982456,0.1756440281030445,,0.5482897384305835
+3032013,CT Abdomen,Procedure,LOINC,Clinical Observation,41806-1,procedure_occurrence,procedure_concept_id,1142,679,0.5294223137080614,,,,,,3.102156432748538,,,
+4298562,Operation on spinal cord,Procedure,SNOMED,Procedure,76879002,procedure_occurrence,procedure_concept_id,1116,191,0.14892439163216456,0.07885502503647045,,,,,,0.0702576112412178,,0.6237424547283702
+4043019,Procedure on nervous system,Procedure,SNOMED,Procedure,118678004,procedure_occurrence,procedure_concept_id,1096,729,0.5684077565437066,0.528328667744352,1.0958503798947983,,,,,0.550351288056206,2.172206228735933,0.45774647887323944
+4306206,Laminectomy,Procedure,SNOMED,Procedure,387731002,procedure_occurrence,procedure_concept_id,1087,213,0.16607798647984842,0.1419390450656468,,,,,,0.08782201405152225,0.31405391258832765,0.613682092555332
+4240701,Lysis of adhesions of intestines,Procedure,SNOMED,Procedure,5789003,procedure_occurrence,procedure_concept_id,1086,368,0.28693285927034845,0.19713756259117612,0.07305669199298656,,0.984009840098401,0.4461381169253648,0.8223684210526315,0.0936768149882904,,0.12575452716297786
+3655901,Assisted ventilation in prone position,Procedure,SNOMED,Procedure,870391004,procedure_occurrence,procedure_concept_id,1081,566,0.4413152128995033,,,0.41073384446878425,6.642066420664206,,,,,2.147887323943662
+1447756,Patient controlled intravenous analgesia,Procedure,SNOMED,Procedure,1351574007,procedure_occurrence,procedure_concept_id,1060,971,0.7570972998682292,,,,,,,,,4.879275653923541
+3655950,Heated and humidified high flow oxygen therapy,Procedure,SNOMED,Procedure,870533002,procedure_occurrence,procedure_concept_id,1060,616,0.4803006557351485,,,2.7245345016429354,25.276752767527675,,,,,
+4242877,Evacuation of subdural hematoma,Procedure,SNOMED,Procedure,59712006,procedure_occurrence,procedure_concept_id,1053,483,0.3765993777923323,0.7215234790837046,0.3750243522306643,,,,,0.4566744730679157,0.6804501439413766,0.4275653923541248
+4047007,Surgical procedure on intracranial aneurysm,Procedure,SNOMED,Procedure,230897007,procedure_occurrence,procedure_concept_id,1008,863,0.6728887433432357,1.0881993455032921,0.7062146892655368,,,,,1.364168618266979,2.015179272441769,0.28672032193158953
+4030657,Operative procedure on small intestine,Procedure,SNOMED,Procedure,107936001,procedure_occurrence,procedure_concept_id,904,326,0.2541850872884065,,,,,,,0.06440281030444965,,1.4386317907444668
+4304688,Double valve replacement,Procedure,SNOMED,Procedure,81762006,procedure_occurrence,procedure_concept_id,875,300,0.233912657013871,0.13799629381382328,0.08766803039158387,,,0.4740217492332001,0.6761695906432749,0.09953161592505855,,0.07042253521126761
+4096152,Exploratory thoracotomy,Procedure,SNOMED,Procedure,26337002,procedure_occurrence,procedure_concept_id,875,399,0.3111038338284485,0.11039703505105863,,,,0.09294544102611767,0.13249269005847952,0.3864168618266979,,0.7394366197183099
+4012907,Operation on musculoskeletal system,Procedure,SNOMED,Procedure,112697007,procedure_occurrence,procedure_concept_id,838,314,0.24482858100785168,0.1577100500729409,0.07792713812585232,,1.1070110701107012,,0.2147295321637427,0.15807962529274006,,0.7142857142857143
+4141919,Insertion of pleural tube drain,Procedure,SNOMED,Procedure,264957007,procedure_occurrence,procedure_concept_id,827,618,0.4818600734485743,2.4326775223751134,,,,,,,,
+4152745,Excision of neoplasm,Procedure,SNOMED,Procedure,370612006,procedure_occurrence,procedure_concept_id,811,757,0.5902396045316679,0.051255766273705795,3.0683810637054356,,,,,,,
+4159949,Surgical procedure on soft tissue,Procedure,SNOMED,Procedure,373351007,procedure_occurrence,procedure_concept_id,787,216,0.16841711304998713,0.13011079131017625,0.12663159945451002,,,0.1951854261548471,0.22843567251461988,0.1405152224824356,0.26171159382360637,0.14084507042253522
+4232320,Cardiopulmonary resuscitation,Procedure,SNOMED,Procedure,89666000,procedure_occurrence,procedure_concept_id,734,551,0.4296195800488098,,2.0455873758036236,,,,,,,0.6338028169014085
+4159959,Vascular surgery procedure on abdominal region,Procedure,SNOMED,Procedure,373392003,procedure_occurrence,procedure_concept_id,731,326,0.2541850872884065,,,,,,,,,1.5995975855130784
+4305852,Off-pump coronary artery bypass,Procedure,SNOMED,Procedure,418824004,procedure_occurrence,procedure_concept_id,703,472,0.3680225803684904,,,,,,,,,2.3641851106639837
+4287923,Patient controlled epidural analgesia,Procedure,SNOMED,Procedure,397905008,procedure_occurrence,procedure_concept_id,679,638,0.4974542505828324,,,,,,,,,3.209255533199195
+4298484,Operation on oral cavity,Procedure,SNOMED,Procedure,384685001,procedure_occurrence,procedure_concept_id,658,200,0.1559417713425807,,,,,,,,,1.0060362173038229
+4046828,Operation on pharynx,Procedure,SNOMED,Procedure,23136006,procedure_occurrence,procedure_concept_id,658,200,0.1559417713425807,,,,,,,,,1.0060362173038229
+4030715,Operation on mandible,Procedure,SNOMED,Procedure,14375003,procedure_occurrence,procedure_concept_id,658,200,0.1559417713425807,,,,,,,,,1.0060362173038229
+4251336,Radical resection of thoracic structures,Procedure,SNOMED,Procedure,73702005,procedure_occurrence,procedure_concept_id,643,141,0.10993894879651937,,0.18020650691603352,,,,,,,0.49798792756539234
+4145658,Physiotherapy/remedial therapy,Procedure,SNOMED,Procedure,266739000,procedure_occurrence,procedure_concept_id,599,253,0.19726634074836455,,,,2.2140221402214024,,,,,1.0764587525150906
+37153653,Moving subject to sitting on edge of bed from lying down,Procedure,SNOMED,Procedure,1231375003,procedure_occurrence,procedure_concept_id,596,448,0.3493095678073807,,,6.119934282584885,,,,,,
+4296529,Anesthesia management,Procedure,SNOMED,Procedure,386513007,procedure_occurrence,procedure_concept_id,592,289,0.22533585959002908,,,3.956736035049288,,,,,,
+4283095,Carotid endarterectomy,Procedure,SNOMED,Procedure,66951008,procedure_occurrence,procedure_concept_id,592,252,0.19648663189165166,,,,7.072570725707257,0.15800724974440003,0.22843567251461988,,,0.23138832997987926
+4016891,Isolation of infection carrier,Procedure,SNOMED,Procedure,170500000,procedure_occurrence,procedure_concept_id,585,474,0.3695819980819162,,,,,,,,,2.3792756539235413
+4300244,Surgical procedure on thorax,Procedure,SNOMED,Procedure,385487005,procedure_occurrence,procedure_concept_id,527,233,0.18167216361410649,0.09856878129558806,,,,0.1394181615391765,0.26955409356725146,0.40398126463700235,,0.11569416498993963
+4040392,Procedure on genitourinary system,Procedure,SNOMED,Procedure,118674002,procedure_occurrence,procedure_concept_id,514,231,0.1801127459006807,0.11828253755470568,0.07305669199298656,,,0.28813086718096476,0.16904239766081872,0.15807962529274006,,0.2414486921529175
+4302745,Irrigation of urinary bladder,Procedure,SNOMED,Procedure,78533007,procedure_occurrence,procedure_concept_id,499,264,0.2058431381722065,,,1.670317634173056,8.61008610086101,,,,,
+4027426,Kidney excision,Procedure,SNOMED,Procedure,108022006,procedure_occurrence,procedure_concept_id,497,180,0.1403475942083226,0.0709695225328234,0.058445353594389245,,1.168511685116851,,0.16904239766081872,0.1990632318501171,,0.19114688128772636
+4246371,Arterial embolectomy,Procedure,SNOMED,Procedure,397045002,procedure_occurrence,procedure_concept_id,496,186,0.14502584734860002,0.11828253755470568,,,,,0.24214181286549707,,,0.33702213279678067
+4145119,Heart valve replacement,Procedure,SNOMED,Procedure,34068001,procedure_occurrence,procedure_concept_id,493,166,0.12943167021434196,,0.09253847652444964,,,0.13012361743656473,0.31067251461988304,,,0.22635814889336017
+4020329,Pancreaticoduodenectomy,Procedure,SNOMED,Procedure,116241004,procedure_occurrence,procedure_concept_id,459,246,0.19180837875137424,0.06308402002917636,,,,0.21377451436007064,0.21929824561403508,0.32201405152224827,,0.07545271629778671
+4327488,Repair of aneurysm,Procedure,SNOMED,Procedure,75087007,procedure_occurrence,procedure_concept_id,428,177,0.1380084676381839,0.09462603004376453,0.058445353594389245,,,0.21377451436007064,0.28326023391812866,0.0936768149882904,,0.07545271629778671
+4323283,Operation on brain,Procedure,SNOMED,Procedure,70586009,procedure_occurrence,procedure_concept_id,416,169,0.13177079678448067,0.06308402002917636,0.0487044613286577,,,,,0.2224824355971897,0.9159905783826223,0.26156941649899396
+40480196,Endovascular repair of abdominal aortic aneurysm,Procedure,SNOMED,Procedure,444588006,procedure_occurrence,procedure_concept_id,411,157,0.12241429050392584,,,,,,,,,0.6338028169014085
+4300185,Transplantation to recipient,Procedure,SNOMED,Procedure,77465005,procedure_occurrence,procedure_concept_id,410,231,0.1801127459006807,,0.14124293785310735,,,,,,,0.8098591549295775
+4297236,Mitral valvuloplasty,Procedure,SNOMED,Procedure,384642005,procedure_occurrence,procedure_concept_id,367,205,0.1598403156261452,,,,,,,,,1.0311871227364184
+2000000978,Blood culture collection,Procedure,ICUdata,Observable Entity,2000000978,procedure_occurrence,procedure_concept_id,343,202,0.1575011890560065,,,2.1221248630887186,2.7675276752767526,,,,,
+4160159,Log roll,Procedure,SNOMED,Procedure,398213004,procedure_occurrence,procedure_concept_id,326,291,0.22689527730345488,,,,,,,,,1.4637826961770624
+4019824,Transesophageal echocardiography,Procedure,SNOMED,Procedure,105376000,procedure_occurrence,procedure_concept_id,323,198,0.15438235362915487,,,2.6697699890470976,,,,,,
+4194238,Endarterectomy,Procedure,SNOMED,Procedure,392031002,procedure_occurrence,procedure_concept_id,321,157,0.12241429050392584,0.3390766076568229,0.09253847652444964,,,,0.05482456140350877,,,0.15090543259557343
+4155151,Oxygen administration by nasal cannula,Procedure,SNOMED,Procedure,371907003,procedure_occurrence,procedure_concept_id,321,266,0.2074025558856323,,,1.2869660460021906,9.409594095940959,,,,,
+4295278,Peripheral arterial bypass,Procedure,SNOMED,Procedure,76580007,procedure_occurrence,procedure_concept_id,319,97,0.07563175910115164,0.09856878129558806,,,,,0.11421783625730994,,,0.07042253521126761
+4082850,Induction of general anesthesia,Procedure,SNOMED,Procedure,241687005,procedure_occurrence,procedure_concept_id,318,282,0.21987789759303875,,,3.8608981380065717,,,,,,
+4212044,Supine plain X-ray of abdomen,Procedure,SNOMED,Procedure,416733000,procedure_occurrence,procedure_concept_id,313,239,0.1863504167543839,,,,,1.0409889394925178,,,,
+4242997,Cholecystectomy,Procedure,SNOMED,Procedure,38102005,procedure_occurrence,procedure_concept_id,302,124,0.09668389823240002,,0.06818624586012079,,,,0.15533625730994152,0.0702576112412178,,0.1710261569416499
+4194964,Operation on endocrine system,Procedure,SNOMED,Procedure,79537002,procedure_occurrence,procedure_concept_id,292,158,0.12319399936063874,,0.3847652444963959,,,,0.05025584795321637,,,0.24647887323943662
+4012933,Arteriectomy with graft replacement of thoracoabdominal aorta,Procedure,SNOMED,Procedure,112819006,procedure_occurrence,procedure_concept_id,290,120,0.09356506280554841,,,,,,,,,0.5985915492957746
+4070879,Lobectomy of lung,Procedure,SNOMED,Procedure,173171007,procedure_occurrence,procedure_concept_id,289,141,0.10993894879651937,,,,1.168511685116851,,,,,0.5985915492957746
+4337271,Excision of intracardiac tumor with cardiopulmonary bypass,Procedure,SNOMED,Procedure,87055003,procedure_occurrence,procedure_concept_id,279,149,0.1161766196502226,0.2286795726057643,,,,0.13012361743656473,0.16904239766081872,0.1053864168618267,,
+44792363,Passive warming of patient,Procedure,SNOMED,Procedure,325311000000102,procedure_occurrence,procedure_concept_id,278,242,0.18868954332452262,,,,,,,,,1.2173038229376258
+4067670,Localized perfusion of liver,Procedure,SNOMED,Procedure,174489006,procedure_occurrence,procedure_concept_id,277,70,0.05457961996990324,,,,,,,,,0.352112676056338
+4322818,Partial hepatectomy,Procedure,SNOMED,Procedure,71273005,procedure_occurrence,procedure_concept_id,277,70,0.05457961996990324,,,,,,,,,0.352112676056338
+4253523,Exploratory laparotomy,Procedure,SNOMED,Procedure,74770008,procedure_occurrence,procedure_concept_id,277,113,0.08810710080855809,,,,1.968019680196802,,,,,0.3772635814889336
+4030312,Decompression of spinal cord,Procedure,SNOMED,Procedure,10836008,procedure_occurrence,procedure_concept_id,276,115,0.08966651852198389,0.13405354256199975,,,,,,0.08782201405152225,0.31405391258832765,0.1659959758551308
+4339742,Composite aortic root operation,Procedure,SNOMED,Procedure,232843004,procedure_occurrence,procedure_concept_id,270,103,0.08031001224142904,,,,,,,,,0.5181086519114688
+4271587,Ventriculostomy,Procedure,SNOMED,Procedure,63933000,procedure_occurrence,procedure_concept_id,260,213,0.16607798647984842,0.2838780901312936,0.1850769530488993,,,,,0.1756440281030445,1.3609002878827532,
+4336544,Operation on trachea,Procedure,SNOMED,Procedure,86800006,procedure_occurrence,procedure_concept_id,259,115,0.08966651852198389,,,,,0.5762617343619295,,0.12295081967213115,,
+4300372,Operation on larynx,Procedure,SNOMED,Procedure,387636004,procedure_occurrence,procedure_concept_id,259,115,0.08966651852198389,,,,,0.5762617343619295,,0.12295081967213115,,
+4142628,Pericardiectomy,Procedure,SNOMED,Procedure,34646007,procedure_occurrence,procedure_concept_id,258,126,0.09824331594582583,0.12616804005835272,0.0487044613286577,,,,0.1736111111111111,0.09953161592505855,,0.06539235412474849
+764090,Defibrillation using automated external cardiac defibrillator,Procedure,SNOMED,Procedure,450661000124102,procedure_occurrence,procedure_concept_id,258,256,0.19960546731850326,,,,,,0.2147295321637427,,,
+4142645,Angiography of coronary artery,Procedure,SNOMED,Procedure,33367005,procedure_occurrence,procedure_concept_id,255,252,0.19648663189165166,,,0.5613362541073385,,,,,,
+4266202,Amputation of limb,Procedure,SNOMED,Procedure,400053006,procedure_occurrence,procedure_concept_id,242,91,0.07095350596087421,0.043370263770058745,,,,,0.17817982456140352,0.09953161592505855,,
+4015701,Cesarean section,Procedure,SNOMED,Procedure,11466000,procedure_occurrence,procedure_concept_id,242,113,0.08810710080855809,0.10251153254741159,0.06818624586012079,,,0.17659633794962357,0.12335526315789473,,,
+4138816,Cranioplasty,Procedure,SNOMED,Procedure,32495000,procedure_occurrence,procedure_concept_id,237,76,0.05925787311018066,0.08674052754011749,,,,,,,,0.19114688128772636
+4185284,Removal of thrombus,Procedure,SNOMED,Procedure,43810009,procedure_occurrence,procedure_concept_id,236,121,0.09434477166226131,0.11433978630288215,0.06818624586012079,,,,0.11878654970760234,0.14637002341920374,,
+4029571,Excision of urinary bladder,Procedure,SNOMED,Procedure,108034003,procedure_occurrence,procedure_concept_id,233,96,0.07485205024443872,,,,,,,0.14637002341920374,,0.14587525150905434
+2000001489,Air stacking,Procedure,ICUdata,Observable Entity,2000001489,procedure_occurrence,procedure_concept_id,220,38,0.02962893655509033,,,,,,,,0.9945040565297043,
+44805913,Primary closure of atrial septal defect,Procedure,SNOMED,Procedure,789561000000101,procedure_occurrence,procedure_concept_id,219,156,0.12163458164721293,0.2799353388794701,0.18994739918176504,,,,0.09594298245614036,,,
+4229828,Measurement of blood flow rate in vascular access,Procedure,SNOMED,Procedure,438484004,procedure_occurrence,procedure_concept_id,210,209,0.1629591510529968,,,,,,,,,
+4199899,Closure of ventricular septal defect,Procedure,SNOMED,Procedure,52930005,procedure_occurrence,procedure_concept_id,208,95,0.07407234138772582,0.1064542837992351,,,,,0.11421783625730994,0.0585480093676815,,
+4034680,Operation for spinal trauma,Procedure,SNOMED,Procedure,239548003,procedure_occurrence,procedure_concept_id,204,82,0.06393612625045808,0.08279777628829398,,,,,,0.08782201405152225,,0.12575452716297786
+44783222,Aortic arch replacement,Procedure,SNOMED,Procedure,699279007,procedure_occurrence,procedure_concept_id,203,116,0.0904462273786968,,,0.21905805038335158,,,,,,0.15090543259557343
+4231681,Aorto-femoral arterial bypass with prosthesis,Procedure,SNOMED,Procedure,405483005,procedure_occurrence,procedure_concept_id,203,74,0.057698455396754854,0.04731301502188227,0.05357490746152348,,0.6765067650676507,,0.05025584795321637,,,0.05533199195171026
+4063759,Evacuation of intracranial extradural hematoma,Procedure,SNOMED,Procedure,171713001,procedure_occurrence,procedure_concept_id,198,132,0.10292156908610325,0.22473682135394077,0.07305669199298656,,,,,0.07611241217798595,0.36639623135304894,0.11569416498993963
+45767544,Anchoring of endotracheal tube,Procedure,SNOMED,Procedure,704991006,procedure_occurrence,procedure_concept_id,197,128,0.09980273365925163,,,1.7387732749178533,,,,,,
+4045859,Biopsy of brain tissue,Procedure,SNOMED,Procedure,230842002,procedure_occurrence,procedure_concept_id,194,54,0.04210427826249678,,,,,,,,,0.2062374245472837
+4208798,Replacement of ascending aorta,Procedure,SNOMED,Procedure,312311004,procedure_occurrence,procedure_concept_id,191,65,0.05068107568633872,,,,,,,,,0.32696177062374243
+4012936,Femoral-popliteal artery bypass graft,Procedure,SNOMED,Procedure,112828007,procedure_occurrence,procedure_concept_id,191,64,0.049901366829625815,,,,,,0.13249269005847952,,,
+4075431,Exploratory burrhole of cranium,Procedure,SNOMED,Procedure,178375006,procedure_occurrence,procedure_concept_id,191,172,0.13410992335461938,0.5716989315144108,,,,,,,,
+4141456,Pancreatectomy,Procedure,SNOMED,Procedure,33149006,procedure_occurrence,procedure_concept_id,175,70,0.05457961996990324,,,,,,,,,0.3470824949698189
+4353741,Cardioversion,Procedure,SNOMED,Procedure,250980009,procedure_occurrence,procedure_concept_id,173,150,0.1169563285069355,,0.7256964737969998,,,,,,,
+4203771,Total replacement of hip,Procedure,SNOMED,Procedure,52734007,procedure_occurrence,procedure_concept_id,173,72,0.05613903768332904,,,,1.1070110701107012,,0.08680555555555555,0.08196721311475409,,
+4054047,Lobectomy,Procedure,SNOMED,Procedure,125571002,procedure_occurrence,procedure_concept_id,172,172,0.13410992335461938,,,,4.920049200492005,,,,,
+4030107,Thyroidectomy,Procedure,SNOMED,Procedure,13619001,procedure_occurrence,procedure_concept_id,172,80,0.06237670853703227,,,,0.922509225092251,,0.09594298245614036,0.0936768149882904,,
+4145042,Thrombolytic therapy,Procedure,SNOMED,Procedure,426347000,procedure_occurrence,procedure_concept_id,171,57,0.044443404832635494,,,,,,,,,0.28169014084507044
+4301351,Surgical procedure,Procedure,SNOMED,Procedure,387713003,procedure_occurrence,procedure_concept_id,165,71,0.05535932882661614,,,,,,,,,0.28169014084507044
+4213041,Operation on skin,Procedure,SNOMED,Procedure,392011001,procedure_occurrence,procedure_concept_id,162,81,0.06315641739374518,,,,,,0.04568713450292398,0.1756440281030445,,
+2000001515,One-lung ventilation,Procedure,ICUdata,Observable Entity,2000001515,procedure_occurrence,procedure_concept_id,159,153,0.11929545507707422,,,2.0947426067907995,,,,,,
+4097064,Operation on bronchus,Procedure,SNOMED,Procedure,26476002,procedure_occurrence,procedure_concept_id,159,23,0.017933303704396778,,,,,,,0.06440281030444965,,
+42537054,Post anesthesia care management,Procedure,SNOMED,Procedure,736169004,procedure_occurrence,procedure_concept_id,152,141,0.10993894879651937,,,1.9304490690032858,,,,,,
+1073322,Construction of tracheostomy,Procedure,SNOMED,Procedure,1303805000,procedure_occurrence,procedure_concept_id,146,70,0.05457961996990324,0.09462603004376453,,,,,,0.0585480093676815,,0.07042253521126761
+4137462,Adrenalectomy,Procedure,SNOMED,Procedure,31904001,procedure_occurrence,procedure_concept_id,145,58,0.0452231136893484,,,,,,0.05482456140350877,0.11124121779859485,,0.05533199195171026
+2000000550,Shunt,Procedure,ICUdata,Observable Entity,2000000550,procedure_occurrence,procedure_concept_id,142,118,0.0920056450921226,,,,,,,,,0.5935613682092555
+37157745,Carotid artery to axillary artery bypass,Procedure,SNOMED,Procedure,1231785004,procedure_occurrence,procedure_concept_id,139,131,0.10214186022939034,,,,7.2570725707257075,,,,,
+4324058,Correction of congenital deformity of heart,Procedure,SNOMED,Procedure,428515000,procedure_occurrence,procedure_concept_id,139,128,0.09980273365925163,0.23262232385758783,0.2289109682446912,,,,,,,
+4022804,Kidney operation,Procedure,SNOMED,Procedure,175898006,procedure_occurrence,procedure_concept_id,139,139,0.10837953108309357,,0.5844535359438925,,,,,,,
+4168831,Minimally invasive direct coronary artery bypass,Procedure,SNOMED,Procedure,419132001,procedure_occurrence,procedure_concept_id,133,107,0.08342884766828067,,,,,,,,2.224548547500654,
+4144861,Drainage of pericardium,Procedure,SNOMED,Procedure,265487002,procedure_occurrence,procedure_concept_id,131,48,0.03742602512221936,,,,,,,,,0.15090543259557343
+4148369,Angiocardiography,Procedure,SNOMED,Procedure,34945008,procedure_occurrence,procedure_concept_id,129,121,0.09434477166226131,,,0.5750273822562979,,,,,,
+4300757,Computed tomography,Procedure,SNOMED,Procedure,77477000,procedure_occurrence,procedure_concept_id,129,119,0.09278535394883551,,,1.6292442497261774,,,,,,
+4173491,Internal fixation of fracture of spine,Procedure,SNOMED,Procedure,275093002,procedure_occurrence,procedure_concept_id,128,40,0.031188354268516134,,,,,,,,,0.09054325955734406
+4236711,Aorto-iliac bypass with prosthesis,Procedure,SNOMED,Procedure,405487006,procedure_occurrence,procedure_concept_id,127,60,0.046782531402774205,0.04731301502188227,,,,0.1115345292313412,0.05482456140350877,,,
+4335825,Transthoracic echocardiography,Procedure,SNOMED,Procedure,433236007,procedure_occurrence,procedure_concept_id,124,108,0.08420855652499357,,,1.4786418400876231,,,,,,
+4078793,Direct current cardioversion,Procedure,SNOMED,Procedure,180325003,procedure_occurrence,procedure_concept_id,123,90,0.0701737971041613,,,1.04052573932092,0.7380073800738007,,,,,
+44806024,Hyperthermic intraoperative peritoneal chemotherapy,Procedure,SNOMED,Procedure,819971000000103,procedure_occurrence,procedure_concept_id,122,122,0.09512448051897421,,,,,,,,,
+4120657,Interventional debulking surgery,Procedure,SNOMED,Procedure,303577009,procedure_occurrence,procedure_concept_id,121,121,0.09434477166226131,,,,,,,,,
+4327195,Mobilization,Procedure,SNOMED,Procedure,74923002,procedure_occurrence,procedure_concept_id,120,76,0.05925787311018066,,,1.0268346111719606,,,,,,
+4052413,Central venous cannula insertion,Procedure,SNOMED,Procedure,233527006,procedure_occurrence,procedure_concept_id,118,114,0.08888680966527099,,,1.56078860898138,,,,,,
+4031454,Open pleural procedure,Procedure,SNOMED,Procedure,238346006,procedure_occurrence,procedure_concept_id,117,50,0.03898544283564517,,,,,,,0.117096018735363,,
+4127886,Hysterectomy,Procedure,SNOMED,Procedure,236886002,procedure_occurrence,procedure_concept_id,116,62,0.04834194911620001,0.051255766273705795,,,,,0.06396198830409357,,,
+4194676,General treatment,Procedure,SNOMED,Procedure,7922000,procedure_occurrence,procedure_concept_id,115,80,0.06237670853703227,,,,4.920049200492005,,,,,
+4075360,Surgical debridement of wound,Procedure,SNOMED,Procedure,225148005,procedure_occurrence,procedure_concept_id,114,70,0.05457961996990324,,,0.17798466593647316,0.8610086100861009,,,,,
+4030153,Operative procedure on hematopoietic system,Procedure,SNOMED,Procedure,107994000,procedure_occurrence,procedure_concept_id,112,50,0.03898544283564517,,0.1850769530488993,,,,,,,
+4198190,Appendectomy,Procedure,SNOMED,Procedure,80146002,procedure_occurrence,procedure_concept_id,112,42,0.032747771981941946,,,,,,0.08223684210526316,,,
+4337610,Excision of bulla of lung,Procedure,SNOMED,Procedure,232651003,procedure_occurrence,procedure_concept_id,110,32,0.024950683414812908,,,,,,0.07309941520467836,,,
+4311043,Arterial cannula insertion,Procedure,SNOMED,Procedure,392248001,procedure_occurrence,procedure_concept_id,109,102,0.07953030338471614,,,1.3964950711938664,,,,,,
+4125482,Splenectomy,Procedure,SNOMED,Procedure,234319005,procedure_occurrence,procedure_concept_id,104,27,0.02105213913124839,,,,,,,,,
+4031321,Operation on face,Procedure,SNOMED,Procedure,1417002,procedure_occurrence,procedure_concept_id,103,60,0.046782531402774205,,,,,,,0.1053864168618267,,
+2000000517,central venous line placement,Procedure,ICUdata,Observable Entity,2000000517,procedure_occurrence,procedure_concept_id,102,93,0.07251292367430001,,,,,,,,,
+4332593,Spinal anesthesia,Procedure,SNOMED,Procedure,231249005,procedure_occurrence,procedure_concept_id,102,84,0.06549554396388389,,,,4.4895448954489545,,,,,
+4183430,Aneurysmectomy of ventricle of heart,Procedure,SNOMED,Procedure,43371006,procedure_occurrence,procedure_concept_id,101,41,0.03196806312522904,,,,,,0.05939327485380117,,,
+4339829,Pulmonary valve operation,Procedure,SNOMED,Procedure,232854009,procedure_occurrence,procedure_concept_id,100,98,0.07641146795786453,0.13799629381382328,0.17533606078316774,,,,,,0.26171159382360637,
+4065313,Transsphenoidal hypophysectomy,Procedure,SNOMED,Procedure,171948002,procedure_occurrence,procedure_concept_id,90,47,0.03664631626550646,,,,,,,,0.654278984559016,0.05030181086519115
+4196232,Hemodynamic measurements,Procedure,SNOMED,Procedure,44324008,procedure_occurrence,procedure_concept_id,85,57,0.044443404832635494,0.11039703505105863,,,,,,,,
+4259121,Femoral-femoral artery vascular bypass,Procedure,SNOMED,Procedure,44662004,procedure_occurrence,procedure_concept_id,84,29,0.0226115568446742,,,,,,0.06396198830409357,,,
+4222936,Pleurodesis,Procedure,SNOMED,Procedure,84572006,procedure_occurrence,procedure_concept_id,82,74,0.057698455396754854,,,0.7393209200438116,,,,,,
+4172438,Total pneumonectomy,Procedure,SNOMED,Procedure,49795001,procedure_occurrence,procedure_concept_id,82,48,0.03742602512221936,,,,,,,,,0.21629778672032193
+4129747,Operation on female genital organs,Procedure,SNOMED,Procedure,12658000,procedure_occurrence,procedure_concept_id,82,49,0.03820573397893227,,,,,,,,,0.23641851106639838
+4263480,Suprapubic prostatectomy,Procedure,SNOMED,Procedure,36253005,procedure_occurrence,procedure_concept_id,80,22,0.017153594847683876,,,,,,,,,
+4181152,Endovascular repair of thoracic aortic aneurysm using endovascular stent graft,Procedure,SNOMED,Procedure,429679003,procedure_occurrence,procedure_concept_id,76,38,0.02962893655509033,,,,,,,,,0.13078470824949698
+4049832,Insertion of peripheral venous cannula into peripheral vein,Procedure,SNOMED,Procedure,233520008,procedure_occurrence,procedure_concept_id,71,68,0.05302020225647743,,,0.9173055859802848,,,,,,
+4251314,Laparoscopy,Procedure,SNOMED,Procedure,73632009,procedure_occurrence,procedure_concept_id,70,65,0.05068107568633872,,,0.16429353778751368,1.2915129151291513,,,,,
+4003037,Creation of cerebrospinal fluid shunt,Procedure,SNOMED,Procedure,119566000,procedure_occurrence,procedure_concept_id,69,32,0.024950683414812908,,,,,,,,,
+4339741,Replacement of implanted aortic valve,Procedure,SNOMED,Procedure,232842009,procedure_occurrence,procedure_concept_id,69,21,0.016373885990970973,,,,,,,,,0.1006036217303823
+40483531,Revision of ventriculoperitoneal shunt,Procedure,SNOMED,Procedure,442432004,procedure_occurrence,procedure_concept_id,69,32,0.024950683414812908,,,,,,,,,
+4326683,Bariatric operative procedure,Procedure,SNOMED,Procedure,430715008,procedure_occurrence,procedure_concept_id,69,45,0.03508689855208065,,,,2.029520295202952,,,,,
+4253207,Repair of urinary bladder,Procedure,SNOMED,Procedure,74146001,procedure_occurrence,procedure_concept_id,67,13,0.010136215137267745,,,,,,,,,
+4125465,Block dissection of pelvic lymph nodes,Procedure,SNOMED,Procedure,234250009,procedure_occurrence,procedure_concept_id,66,41,0.03196806312522904,0.043370263770058745,,,,,,,,
+40489793,Exploration using laparoscope,Procedure,SNOMED,Procedure,446805001,procedure_occurrence,procedure_concept_id,66,59,0.0460028225460613,,,0.32858707557502737,,,,,,
+4028623,Transplantation of bone marrow,Procedure,SNOMED,Procedure,23719005,procedure_occurrence,procedure_concept_id,65,54,0.04210427826249678,0.20896581634664668,,,,,,,,
+4307240,Uvulopalatopharyngoplasty,Procedure,SNOMED,Procedure,8335001,procedure_occurrence,procedure_concept_id,64,25,0.019492721417822587,,,,0.7380073800738007,,,,,
+4244809,Esophageal hiatus hernia repair,Procedure,SNOMED,Procedure,9292007,procedure_occurrence,procedure_concept_id,58,24,0.01871301256110968,,,,,,,,,
+4307036,Percutaneous coil embolization of cerebral artery aneurysm,Procedure,SNOMED,Procedure,390935004,procedure_occurrence,procedure_concept_id,55,35,0.02728980998495162,,,,,,,,,0.176056338028169
+4174389,Operation on biliary tract,Procedure,SNOMED,Procedure,42560003,procedure_occurrence,procedure_concept_id,55,31,0.024170974558100005,,,,,,,,,0.15593561368209255
+4146781,Endarterectomy of iliac artery,Procedure,SNOMED,Procedure,307800001,procedure_occurrence,procedure_concept_id,55,54,0.04210427826249678,,,,2.5830258302583027,,,,,
+4042907,"Hartmann operation, rectal resection",Procedure,SNOMED,Procedure,16564004,procedure_occurrence,procedure_concept_id,55,55,0.04288398711920969,,,,0.984009840098401,,,,,
+4196678,Hernia repair,Procedure,SNOMED,Procedure,50465008,procedure_occurrence,procedure_concept_id,55,24,0.01871301256110968,,,,,,,,,
+4331311,Changing tracheostomy tube,Procedure,SNOMED,Procedure,2267008,procedure_occurrence,procedure_concept_id,54,25,0.019492721417822587,,,,1.5375153751537516,,,,,
+4149930,Pericardiocentesis,Procedure,SNOMED,Procedure,309849004,procedure_occurrence,procedure_concept_id,52,51,0.03976515169235807,,,0.15060240963855423,,,,,,
+4000895,Aorta reconstruction,Procedure,SNOMED,Procedure,119777009,procedure_occurrence,procedure_concept_id,50,49,0.03820573397893227,,,,,,,,,
+4064645,Stereotactic ablation of brain tissue,Procedure,SNOMED,Procedure,171454008,procedure_occurrence,procedure_concept_id,50,14,0.010915923993980647,,,,,,,,,0.05030181086519115
+4074848,Endoscopic resection of lesion of peritoneum,Procedure,SNOMED,Procedure,177993002,procedure_occurrence,procedure_concept_id,50,46,0.035866607408793556,,,,,,,,,
+4062876,Stereotactic biopsy of brain,Procedure,SNOMED,Procedure,171491002,procedure_occurrence,procedure_concept_id,50,14,0.010915923993980647,,,,,,,,,0.05030181086519115
+40484137,Excision of infected vascular graft,Procedure,SNOMED,Procedure,443944004,procedure_occurrence,procedure_concept_id,49,23,0.017933303704396778,,,,,,,,,
+4200418,Parathyroidectomy,Procedure,SNOMED,Procedure,53304009,procedure_occurrence,procedure_concept_id,47,23,0.017933303704396778,,,,,,,,,
+1076048,Posterior interbody fusion of joint of lumbar spine,Procedure,SNOMED,Procedure,1335731006,procedure_occurrence,procedure_concept_id,45,28,0.021831847987961294,,,,,,,,,0.12072434607645875
+4299523,Angiography,Procedure,SNOMED,Procedure,77343006,procedure_occurrence,procedure_concept_id,45,29,0.0226115568446742,,,,1.7220172201722017,,,,,
+4275142,Implantation of heart assist system,Procedure,SNOMED,Procedure,64253000,procedure_occurrence,procedure_concept_id,44,31,0.024170974558100005,,,0.3696604600219058,,,,,,
+4339608,Open biopsy of lung,Procedure,SNOMED,Procedure,232628003,procedure_occurrence,procedure_concept_id,44,19,0.014814468277545165,,,,,,,,,
+4181450,Insertion of stent into ureter,Procedure,SNOMED,Procedure,428817001,procedure_occurrence,procedure_concept_id,42,40,0.031188354268516134,,,,,,,,,
+43531648,Total knee replacement,Procedure,SNOMED,Procedure,609588000,procedure_occurrence,procedure_concept_id,42,26,0.02027243027453549,,,,0.922509225092251,,,,,
+4311038,Operative procedure on spinal structure,Procedure,SNOMED,Procedure,392236004,procedure_occurrence,procedure_concept_id,41,17,0.013255050564119358,,,,,,,,,
+4323902,Lung volume reduction surgery,Procedure,SNOMED,Procedure,429609002,procedure_occurrence,procedure_concept_id,41,18,0.01403475942083226,,,,,,,,,
+4230911,Echocardiography,Procedure,SNOMED,Procedure,40701008,procedure_occurrence,procedure_concept_id,40,38,0.02962893655509033,,,0.17798466593647316,1.5375153751537516,,,,,
+4207050,Cosmetic surgery,Procedure,SNOMED,Procedure,56306000,procedure_occurrence,procedure_concept_id,40,20,0.015594177134258067,,,,,,,,,
+4274789,Transection of cranial nerve,Procedure,SNOMED,Procedure,64844000,procedure_occurrence,procedure_concept_id,39,30,0.023391265701387103,0.043370263770058745,,,,,,,,
+4311112,Decompression of cranial nerve,Procedure,SNOMED,Procedure,85947008,procedure_occurrence,procedure_concept_id,39,30,0.023391265701387103,0.043370263770058745,,,,,,,,
+4323201,Replacement of aortic root,Procedure,SNOMED,Procedure,428179006,procedure_occurrence,procedure_concept_id,38,25,0.019492721417822587,,,,,,,,,0.05533199195171026
+4205991,Implantation of complex two wire intravenous cardiac pacemaker,Procedure,SNOMED,Procedure,309408009,procedure_occurrence,procedure_concept_id,37,37,0.028849227698377427,,,,,,,,,
+4137127,Transplantation of heart,Procedure,SNOMED,Procedure,32413006,procedure_occurrence,procedure_concept_id,36,36,0.02806951884166452,,,,,,,,0.863648259617901,
+4311036,Drainage of peritonsillar abscess,Procedure,SNOMED,Procedure,392233007,procedure_occurrence,procedure_concept_id,36,29,0.0226115568446742,,,,,,,,,
+4030387,Laparoscopic-assisted sigmoid colectomy,Procedure,SNOMED,Procedure,1390003,procedure_occurrence,procedure_concept_id,35,35,0.02728980998495162,,,,1.1070110701107012,,,,,
+4098191,Replacement of tricuspid valve,Procedure,SNOMED,Procedure,25236004,procedure_occurrence,procedure_concept_id,34,15,0.011695632850693551,,,,,,,,,
+4299720,Repair of pulmonary valve,Procedure,SNOMED,Procedure,386749005,procedure_occurrence,procedure_concept_id,34,15,0.011695632850693551,,,,,,,,,
+4293619,Repair of tricuspid valve,Procedure,SNOMED,Procedure,384643000,procedure_occurrence,procedure_concept_id,34,15,0.011695632850693551,,,,,,,,,
+4339184,Replacement of pulmonary valve,Procedure,SNOMED,Procedure,88045004,procedure_occurrence,procedure_concept_id,34,15,0.011695632850693551,,,,,,,,,
+4191948,Implantation of internal cardiac defibrillator,Procedure,SNOMED,Procedure,395218007,procedure_occurrence,procedure_concept_id,33,33,0.025730392271525813,,,,,,,,,
+4139931,Operation on aorta,Procedure,SNOMED,Procedure,32907006,procedure_occurrence,procedure_concept_id,33,19,0.014814468277545165,,,,,,,,,0.09557344064386318
+4197894,Insertion of implantable venous access port,Procedure,SNOMED,Procedure,80402001,procedure_occurrence,procedure_concept_id,32,29,0.0226115568446742,,,,,,,,,
+4300064,Dorsolumbar spinal fusion with Harrington rod,Procedure,SNOMED,Procedure,78217005,procedure_occurrence,procedure_concept_id,32,17,0.013255050564119358,,,,,,,,,
+4204677,Gastrostomy,Procedure,SNOMED,Procedure,54956002,procedure_occurrence,procedure_concept_id,32,19,0.014814468277545165,,,,,,,,,
+4073393,Opening of chest,Procedure,SNOMED,Procedure,177765008,procedure_occurrence,procedure_concept_id,30,29,0.0226115568446742,,,,,,,,,
+4021363,Salpingo-oophorectomy,Procedure,SNOMED,Procedure,116028008,procedure_occurrence,procedure_concept_id,30,22,0.017153594847683876,,,,,,,,,
+4070880,Excision of segment of lung,Procedure,SNOMED,Procedure,173172000,procedure_occurrence,procedure_concept_id,29,24,0.01871301256110968,,,,,,,,,0.12072434607645875
+4023415,Bronchial sleeve resection with pulmonary resection,Procedure,SNOMED,Procedure,116165008,procedure_occurrence,procedure_concept_id,29,24,0.01871301256110968,,,,,,,,,0.12072434607645875
+2000000977,Urine culture collection,Procedure,ICUdata,Observable Entity,2000000977,procedure_occurrence,procedure_concept_id,27,26,0.02027243027453549,,,,1.5990159901599017,,,,,
+4187501,Angiectomy with anastomosis,Procedure,SNOMED,Procedure,47274002,procedure_occurrence,procedure_concept_id,27,27,0.02105213913124839,,,,,,,,,
+4079730,Pleurectomy,Procedure,SNOMED,Procedure,23979009,procedure_occurrence,procedure_concept_id,27,12,0.00935650628055484,,,,,,,,,
+35622931,Doppler ultrasound,Procedure,SNOMED,Procedure,765172009,procedure_occurrence,procedure_concept_id,27,12,0.00935650628055484,,,,0.6765067650676507,,,,,
+4118634,Grafting to skin,Procedure,SNOMED,Procedure,304040003,procedure_occurrence,procedure_concept_id,27,16,0.012475341707406454,,,,,,,,,
+4143852,Laparoscopic sleeve gastrectomy,Procedure,SNOMED,Procedure,427074001,procedure_occurrence,procedure_concept_id,25,25,0.019492721417822587,,,,1.3530135301353015,,,,,
+4030835,Limited thoracotomy,Procedure,SNOMED,Procedure,238328000,procedure_occurrence,procedure_concept_id,24,24,0.01871301256110968,,,,,,,,,
+36685526,Insufflation using warm humidified carbon dioxide,Procedure,SNOMED,Procedure,1098871000000100,procedure_occurrence,procedure_concept_id,24,22,0.017153594847683876,,,,1.2915129151291513,,,,,
+4075182,Elective cesarean section,Procedure,SNOMED,Procedure,177141003,procedure_occurrence,procedure_concept_id,24,24,0.01871301256110968,,,,,,,,,
+42538967,Retroperitoneal lymph node dissection,Procedure,SNOMED,Procedure,935441000168106,procedure_occurrence,procedure_concept_id,23,14,0.010915923993980647,,,,,,,,,
+37163760,Open jejunectomy,Procedure,SNOMED,Procedure,1220544006,procedure_occurrence,procedure_concept_id,23,21,0.016373885990970973,,,,,,,,,
+4051938,Cardiac pacemaker procedure,Procedure,SNOMED,Procedure,233174007,procedure_occurrence,procedure_concept_id,23,21,0.016373885990970973,,,,,,,,,
+4086760,Percutaneous balloon valvuloplasty of heart,Procedure,SNOMED,Procedure,24394009,procedure_occurrence,procedure_concept_id,23,15,0.011695632850693551,,,,,,,,,
+4032774,Thoracoscopy,Procedure,SNOMED,Procedure,14671001,procedure_occurrence,procedure_concept_id,22,21,0.016373885990970973,,,,,,,,,
+4183308,Endarterectomy of upper limb artery,Procedure,SNOMED,Procedure,43418007,procedure_occurrence,procedure_concept_id,21,19,0.014814468277545165,,,,,,,,,
+4033525,Arthroplasty of patella with prosthesis,Procedure,SNOMED,Procedure,14555006,procedure_occurrence,procedure_concept_id,20,19,0.014814468277545165,,,,1.1070110701107012,,,,,
+4074689,Open drainage of pleural cavity,Procedure,SNOMED,Procedure,177788009,procedure_occurrence,procedure_concept_id,20,19,0.014814468277545165,,,,,,,,,
+4144868,Transluminal operations on renal artery,Procedure,SNOMED,Procedure,265507002,procedure_occurrence,procedure_concept_id,20,20,0.015594177134258067,,,,,,,,,
+40486150,Video assisted thoracoscopy,Procedure,SNOMED,Procedure,449201002,procedure_occurrence,procedure_concept_id,20,16,0.012475341707406454,,,,,,,,,0.060362173038229376
+4178736,Pelvic exenteration,Procedure,SNOMED,Procedure,52224004,procedure_occurrence,procedure_concept_id,19,17,0.013255050564119358,,,,,,,,,
+4068507,Examination of rectum under anesthesia,Procedure,SNOMED,Procedure,174298006,procedure_occurrence,procedure_concept_id,19,17,0.013255050564119358,,,,0.8610086100861009,,,,,
+46270974,Laparoscopic bypass of stomach,Procedure,SNOMED,Procedure,708983005,procedure_occurrence,procedure_concept_id,19,19,0.014814468277545165,,,,0.7995079950799509,,,,,
+4078199,Epidural anesthesia,Procedure,SNOMED,Procedure,18946005,procedure_occurrence,procedure_concept_id,17,17,0.013255050564119358,,,0.13691128148959475,,,,,,
+4050572,Implantation of automatic cardiac defibrillator,Procedure,SNOMED,Procedure,233170003,procedure_occurrence,procedure_concept_id,17,11,0.008576797423841938,,,,,,,,,
+4150663,Operation on pleural cavity,Procedure,SNOMED,Procedure,31168004,procedure_occurrence,procedure_concept_id,17,15,0.011695632850693551,,,,,,,,,
+42537585,Open repair of incisional hernia,Procedure,SNOMED,Procedure,737069008,procedure_occurrence,procedure_concept_id,16,16,0.012475341707406454,,,,,,,,,
+4140007,Creation of graft fistula for dialysis,Procedure,SNOMED,Procedure,426340003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4195136,Amputation above-knee,Procedure,SNOMED,Procedure,79733001,procedure_occurrence,procedure_concept_id,15,14,0.010915923993980647,,,,,,,,,
+37164749,Excision of breast,Procedure,SNOMED,Procedure,1231734007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4060257,Insertion of intra-aortic balloon counterpulsation,Procedure,SNOMED,Procedure,16965008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4306192,Cardiotochogram,Procedure,SNOMED,Procedure,387672006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4336593,Replacement of implanted mitral valve,Procedure,SNOMED,Procedure,232777000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4012314,Suture of large intestine,Procedure,SNOMED,Procedure,112872005,procedure_occurrence,procedure_concept_id,13,11,0.008576797423841938,,,,,,,,,
+37016897,Open reduction of intussusception of intestine,Procedure,SNOMED,Procedure,713046002,procedure_occurrence,procedure_concept_id,13,13,0.010136215137267745,,,,,,,,,
+4041980,Gastrointestinal tract repair,Procedure,SNOMED,Procedure,118153004,procedure_occurrence,procedure_concept_id,13,13,0.010136215137267745,,,,,,,,,
+4286887,Radical orchiectomy,Procedure,SNOMED,Procedure,396692006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4226983,Resection of rectum,Procedure,SNOMED,Procedure,87677003,procedure_occurrence,procedure_concept_id,13,13,0.010136215137267745,,,,,,,,,
+4163971,Laparoscopic cholecystectomy,Procedure,SNOMED,Procedure,45595009,procedure_occurrence,procedure_concept_id,13,13,0.010136215137267745,,,,,,,,,
+4076862,Transplantation of liver,Procedure,SNOMED,Procedure,18027006,procedure_occurrence,procedure_concept_id,12,10,0.007797088567129034,,,,,,,,,
+4285725,Percutaneous valvuloplasty,Procedure,SNOMED,Procedure,68860005,procedure_occurrence,procedure_concept_id,12,12,0.00935650628055484,,,,,,,,,
+40479688,Reamputation of lower leg through tibia and fibula,Procedure,SNOMED,Procedure,443025009,procedure_occurrence,procedure_concept_id,12,11,0.008576797423841938,,,,,,,,,
+46270977,Laparoscopic total gastrectomy,Procedure,SNOMED,Procedure,708987006,procedure_occurrence,procedure_concept_id,12,12,0.00935650628055484,,,,,,,,,
+36717743,Transplantation of kidney and pancreas,Procedure,SNOMED,Procedure,6471000179103,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4046917,Repair of cranial cerebrospinal fluid fistula,Procedure,SNOMED,Procedure,230833009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4180007,Decompressive fasciotomy,Procedure,SNOMED,Procedure,363051003,procedure_occurrence,procedure_concept_id,11,11,0.008576797423841938,,,,,,,,,
+4242520,Suture of stomach,Procedure,SNOMED,Procedure,9238008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4058634,Vascular bypass of renal artery with graft,Procedure,SNOMED,Procedure,21344007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4070989,Wedge resection of lip,Procedure,SNOMED,Procedure,173225009,procedure_occurrence,procedure_concept_id,11,10,0.007797088567129034,,,,,,,,,
+4116629,Embolectomy of axillary artery,Procedure,SNOMED,Procedure,301082000,procedure_occurrence,procedure_concept_id,11,11,0.008576797423841938,,,,,,,,,
+4217615,Plication of diaphragm,Procedure,SNOMED,Procedure,81913003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4265293,"Percutaneous transluminal coronary angioplasty by rotablation, single vessel using imaging guidance with contrast",Procedure,SNOMED,Procedure,397431004,procedure_occurrence,procedure_concept_id,10,10,0.007797088567129034,,,,,,,,,
+4306203,Peritoneal lavage,Procedure,SNOMED,Procedure,387715005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+40487349,Laparoscopic total nephrectomy,Procedure,SNOMED,Procedure,446296004,procedure_occurrence,procedure_concept_id,10,10,0.007797088567129034,,,,0.6150061500615006,,,,,
+4029205,Procedure by method,Procedure,SNOMED,Procedure,128927009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4138676,Arteriectomy with graft replacement of thoracic aorta,Procedure,SNOMED,Procedure,32252002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4194666,Posterior tibial artery bypass graft with vein,Procedure,SNOMED,Procedure,79182008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4232742,Vacuum assisted skin closure,Procedure,SNOMED,Procedure,404915007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4264285,Percutaneous transluminal coronary angioplasty by rotablation using imaging guidance with contrast,Procedure,SNOMED,Procedure,397193006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4337034,Wedge excision of lung,Procedure,SNOMED,Procedure,232632009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4090926,Revision of hip arthroplasty,Procedure,SNOMED,Procedure,280460009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4343794,Internal fixation of fracture,Procedure,SNOMED,Procedure,239293007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4189194,Vascular subclavian-subclavian bypass,Procedure,SNOMED,Procedure,60572009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4118958,Lobectomy of thyroid gland,Procedure,SNOMED,Procedure,302338000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4060043,Excision of lesion of atrium,Procedure,SNOMED,Procedure,19979004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4151385,Manual removal of retained placenta,Procedure,SNOMED,Procedure,28233006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4139214,Open implantation of cardiac ventricular assist device,Procedure,SNOMED,Procedure,426568003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4078224,Change of dressing,Procedure,SNOMED,Procedure,18949003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4304943,Endoscopic retrograde cholangiopancreatography,Procedure,SNOMED,Procedure,386718000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+37157813,Implantation of cardiac resynchronization defibrillator system,Procedure,SNOMED,Procedure,1236755008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4063237,Aortocoronary artery bypass graft with vein graft,Procedure,SNOMED,Procedure,17073005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4197480,Percutaneous insertion of nephrostomy tube,Procedure,SNOMED,Procedure,313270001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+45765790,Aerosol therapy,Procedure,SNOMED,Procedure,702808009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4275133,Construction of mucous fistula,Procedure,SNOMED,Procedure,64215005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4160163,Construction of cecostomy,Procedure,SNOMED,Procedure,398235007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4166673,Replacement of prosthesis of lower extremity,Procedure,SNOMED,Procedure,45351004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4206400,Laparoscopic partial nephrectomy,Procedure,SNOMED,Procedure,439739008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4306060,Construction of end colostomy,Procedure,SNOMED,Procedure,387606008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4022478,Open excision of renal lesion,Procedure,SNOMED,Procedure,175923006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4050415,Banding of arteriovenous fistula,Procedure,SNOMED,Procedure,233491000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+46271049,Fluoroscopy guided percutaneous transluminal angioplasty of peripheral blood vessel with contrast,Procedure,SNOMED,Procedure,709077000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+40480556,Excision of part of pericardium,Procedure,SNOMED,Procedure,443211004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+40480427,Revisional fusion of joint of spine,Procedure,SNOMED,Procedure,441715004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4299447,Surgical procedure on chest wall,Procedure,SNOMED,Procedure,385488000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4221694,Operation on colon,Procedure,SNOMED,Procedure,82874003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4266062,Revision of total hip replacement,Procedure,SNOMED,Procedure,62402000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4270363,Removal of cardiac pacemaker,Procedure,SNOMED,Procedure,62881002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4142959,Fasciotomy thigh,Procedure,SNOMED,Procedure,264980004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4172515,Therapeutic procedure,Procedure,SNOMED,Procedure,277132007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4000889,Heart closure,Procedure,SNOMED,Procedure,119765004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4143658,Split thickness graft of skin to skin,Procedure,SNOMED,Procedure,265675003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4077078,Uncemented prosthetic hemiarthroplasty of hip joint,Procedure,SNOMED,Procedure,276178005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4021529,Abdominal hysterectomy,Procedure,SNOMED,Procedure,116141005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4167183,Cordectomy of vocal cord,Procedure,SNOMED,Procedure,47935000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4305074,Ureterorenoscopy,Procedure,SNOMED,Procedure,386787002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4316068,Total pancreatectomy,Procedure,SNOMED,Procedure,9524002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4049812,Portosystemic shunt operation,Procedure,SNOMED,Procedure,233444007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4214034,Duodenoscopy,Procedure,SNOMED,Procedure,80267006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4307532,Ligation of lymphatic vessel,Procedure,SNOMED,Procedure,83566004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4146256,Transplant nephrectomy,Procedure,SNOMED,Procedure,265550007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4243973,Laparoscopic appendectomy,Procedure,SNOMED,Procedure,6025007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+1242722,Operation on femoral artery,Procedure,SNOMED,Procedure,1287739009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4071247,Plantar fasciectomy,Procedure,SNOMED,Procedure,178051003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4079402,Uncemented prosthetic total arthroplasty of shoulder joint,Procedure,SNOMED,Procedure,179447000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4190526,Laparoscopic total abdominal hysterectomy and bilateral salpingo-oophorectomy,Procedure,SNOMED,Procedure,414575003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+37165984,Transanal total mesorectal excision,Procedure,SNOMED,Procedure,1258871004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4076599,Arthroscopic removal of loose body from knee joint,Procedure,SNOMED,Procedure,179391004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4078308,Repair of ileostomy,Procedure,SNOMED,Procedure,276185009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4198854,Total ureterectomy,Procedure,SNOMED,Procedure,51607004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4337190,Aortic valve resuspension and replacement of ascending aorta,Procedure,SNOMED,Procedure,232845006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+40480915,Revision of reverse polarity total prosthetic replacement of shoulder joint not using cement,Procedure,SNOMED,Procedure,441866001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4264332,Breast reconstruction with free flap,Procedure,SNOMED,Procedure,61938004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+40484160,Excision of foreign body of subcutaneous tissue,Procedure,SNOMED,Procedure,443965005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4085220,Arthroscopy of shoulder,Procedure,SNOMED,Procedure,281812007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4208524,Arthroscopically aided anterior cruciate ligament repair,Procedure,SNOMED,Procedure,55244002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4249893,Colonoscopy,Procedure,SNOMED,Procedure,73761001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4031970,Repair of incisional hernia,Procedure,SNOMED,Procedure,238187004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4032735,Laparoscopic radical hysterectomy,Procedure,SNOMED,Procedure,236891001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4328240,Thoracoscopic lobectomy of lung,Procedure,SNOMED,Procedure,75935006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+1073964,Cardiac ablation for atrial fibrillation,Procedure,SNOMED,Procedure,1332525002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4217665,Repair of diaphragmatic hernia by thoracic approach,Procedure,SNOMED,Procedure,72583007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4343792,Fixation of fracture using screws,Procedure,SNOMED,Procedure,239283000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4035764,Forefoot amputation,Procedure,SNOMED,Procedure,239592001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4297321,"Amputation of finger, except thumb",Procedure,SNOMED,Procedure,76956004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+37163764,Laparoscopic ileectomy,Procedure,SNOMED,Procedure,1220549001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4070719,Tonsillectomy,Procedure,SNOMED,Procedure,173422009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4205990,Implantation of simple one wire intravenous cardiac pacemaker,Procedure,SNOMED,Procedure,309405007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+40483561,Procedure on wound,Procedure,SNOMED,Procedure,442460002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+45769227,Percutaneous transluminal ablation of pulmonary vein to left atrium conducting system,Procedure,SNOMED,Procedure,707831001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+1243647,Arterial bypass graft of thoracic artery using arterial graft,Procedure,SNOMED,Procedure,1297100005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4335479,Bilateral sequential single lung transplant,Procedure,SNOMED,Procedure,232660006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+46270879,Fluoroscopy guided percutaneous transluminal angioplasty of lower limb artery with contrast,Procedure,SNOMED,Procedure,708872002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4057420,Catheter ablation of tissue of heart,Procedure,SNOMED,Procedure,18286008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4169822,Syme through ankle amputation,Procedure,SNOMED,Procedure,275095009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4313592,Extracorporeal bench surgery of kidney,Procedure,SNOMED,Procedure,86303001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4216752,Drug therapy,Procedure,SNOMED,Procedure,416608005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+43531100,Open repair of inguinal hernia,Procedure,SNOMED,Procedure,608797008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4230238,Enterectomy with anastomosis,Procedure,SNOMED,Procedure,359572002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4287115,Intra-atrial pacing,Procedure,SNOMED,Procedure,69158002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4341387,Cystoscopy and destruction of lesion of urinary bladder,Procedure,SNOMED,Procedure,236229002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4337608,Pneumonectomy with tracheobronchoplasty,Procedure,SNOMED,Procedure,232647000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4019128,Fluoroscopy guided percutaneous transluminal angioplasty of subclavian artery with contrast,Procedure,SNOMED,Procedure,175454003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4314436,Enterostomy,Procedure,SNOMED,Procedure,87150006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4030825,Debulking of pelvic tumor,Procedure,SNOMED,Procedure,238302003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4205229,Arthroscopy of knee,Procedure,SNOMED,Procedure,309431009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+42872569,Laparoscopic removal of ovarian cyst,Procedure,SNOMED,Procedure,450560001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4042677,Procedure on artery,Procedure,SNOMED,Procedure,118805000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+40491916,One stage extracapsular extraction of lens and insertion of prosthetic intraocular lens,Procedure,SNOMED,Procedure,447304001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4221874,Hysteroscopy with removal of submucous leiomyomata,Procedure,SNOMED,Procedure,84064003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4331725,Operative procedure on artery of extremity,Procedure,SNOMED,Procedure,22701007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4067367,Uncinectomy,Procedure,SNOMED,Procedure,172921000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4127137,Local transposition flap,Procedure,SNOMED,Procedure,304099003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4237748,Surgical removal of residual tooth roots,Procedure,SNOMED,Procedure,58401002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4033396,Laparoscopic repair of inguinal hernia,Procedure,SNOMED,Procedure,15018006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4159766,Amputation of toe,Procedure,SNOMED,Procedure,371186005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4174035,Subtotal gastrectomy,Procedure,SNOMED,Procedure,49209004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+36675277,Open repair of umbilical hernia using synthetic mesh,Procedure,SNOMED,Procedure,771669009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4338616,Ventricular operation,Procedure,SNOMED,Procedure,233050006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4043191,Procedure on urinary bladder,Procedure,SNOMED,Procedure,118855008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4081709,Endarterectomy of subclavian artery,Procedure,SNOMED,Procedure,240923000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4083391,Excision of lumbar intervertebral disc,Procedure,SNOMED,Procedure,239542002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4108838,Insertion of chronic ambulatory peritoneal dialysis catheter,Procedure,SNOMED,Procedure,180272001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4234536,Transurethral prostatectomy,Procedure,SNOMED,Procedure,90199006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4048317,Operation on internal nose,Procedure,SNOMED,Procedure,232474008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4146142,Repair of traumatic injury of heart,Procedure,SNOMED,Procedure,427280001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4211987,Open reduction of fracture of femur with internal fixation,Procedure,SNOMED,Procedure,57470004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4298166,Removal of calculus of renal pelvis through percutaneous nephrostomy,Procedure,SNOMED,Procedure,386200002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4322169,Subcutaneous mastectomy,Procedure,SNOMED,Procedure,70183006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4327115,Operative procedure on hip,Procedure,SNOMED,Procedure,429772001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+42872509,Laparoscopic cholecystostomy,Procedure,SNOMED,Procedure,450500003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+44783604,Laparoscopic construction of cutaneous ureteroileostomy,Procedure,SNOMED,Procedure,699721006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4079713,Excision of colon,Procedure,SNOMED,Procedure,23968004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4301600,Direct laryngoscopy,Procedure,SNOMED,Procedure,78121007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4308807,Myocardial biopsy,Procedure,SNOMED,Procedure,387828005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4144800,Laparoscopic gastroenterostomy,Procedure,SNOMED,Procedure,307195003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+44783698,Injection of neurolytic substance to intercostal nerve,Procedure,SNOMED,Procedure,699791002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4019424,Open embolectomy of renal artery,Procedure,SNOMED,Procedure,175482005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4072147,Supraomohyoid lymph nodes neck dissection,Procedure,SNOMED,Procedure,178287001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4087760,Bypass gastroenterostomy,Procedure,SNOMED,Procedure,18692006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4162246,Insertion of inferior vena caval filter,Procedure,SNOMED,Procedure,398182006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4018012,Emergency appendectomy,Procedure,SNOMED,Procedure,174036004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4200997,Administration of analgesic,Procedure,SNOMED,Procedure,52685006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4224012,Major reconstruction of chest wall,Procedure,SNOMED,Procedure,84120008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4112340,Dilation of esophagus,Procedure,SNOMED,Procedure,195565004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4305077,Transurethral excision of neoplasm of urinary bladder,Procedure,SNOMED,Procedure,386792000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+43531085,Open reduction of fracture of scapula with internal fixation,Procedure,SNOMED,Procedure,608780002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4042673,Procedure on heart,Procedure,SNOMED,Procedure,118797008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4122234,Percutaneous endoscopic gastrostomy,Procedure,SNOMED,Procedure,235159007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4114638,Uterine packing,Procedure,SNOMED,Procedure,302385006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4325283,Closure of enterostomy,Procedure,SNOMED,Procedure,71309007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4070882,Open excision of lesion of lung,Procedure,SNOMED,Procedure,173178001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4124310,Subtotal pancreatectomy,Procedure,SNOMED,Procedure,287847009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4265608,Detorsion of ovary,Procedure,SNOMED,Procedure,61473007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+35624826,Laparoscopic adenomyomectomy,Procedure,SNOMED,Procedure,767751001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+37109423,Venography of left upper extremity,Procedure,SNOMED,Procedure,4711000087109,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4022318,Revision of reconstruction of artery,Procedure,SNOMED,Procedure,175729002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4048304,Shunt of portal vein to vena cava,Procedure,SNOMED,Procedure,20767001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4051619,Repair of external nose,Procedure,SNOMED,Procedure,232472007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+37204026,Laparoscopic restorative proctocolectomy with ileal pouch anal anastomosis,Procedure,SNOMED,Procedure,787108001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4030087,Nasal septoplasty,Procedure,SNOMED,Procedure,13529000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4078747,Application of mallet splint,Procedure,SNOMED,Procedure,180319002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4120425,Excision of group of lymph nodes,Procedure,SNOMED,Procedure,234253006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4167420,Reduction of dislocation of ankle,Procedure,SNOMED,Procedure,274457001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4134423,Removal of device,Procedure,SNOMED,Procedure,128538000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+37017357,Fluoroscopy guided percutaneous transluminal revascularization of chronic total occlusion of coronary artery with contrast,Procedure,SNOMED,Procedure,713617008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4074571,Endoscopic freeing of adhesions of ovary,Procedure,SNOMED,Procedure,177047002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4081730,Fleur de Lys abdominoplasty,Procedure,SNOMED,Procedure,240973002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4078043,Open reduction of fracture of zygomatic bone,Procedure,SNOMED,Procedure,19135003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4134891,Removal of therapeutic shunt device,Procedure,SNOMED,Procedure,128407004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+44783371,Arthrotomy of joint of shoulder girdle,Procedure,SNOMED,Procedure,699454007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4146154,Biopsy of tendon,Procedure,SNOMED,Procedure,427337008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4208113,Spinal arthrodesis,Procedure,SNOMED,Procedure,55705006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+40486116,Removal of total hip prosthesis,Procedure,SNOMED,Procedure,447736005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4022807,Nephroureterectomy,Procedure,SNOMED,Procedure,175907006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4032404,Bronchoscopy,Procedure,SNOMED,Procedure,10847001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4047082,Implantation of insertable loop recorder,Procedure,SNOMED,Procedure,134367001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4253894,Maxillary sinusotomy by Caldwell-Luc approach,Procedure,SNOMED,Procedure,410754004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4309425,Dilation and curettage of uterus after delivery,Procedure,SNOMED,Procedure,391998006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4317526,Injection of drug or medicament into nerve,Procedure,SNOMED,Procedure,22028008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+43531101,Open repair of obstructed femoral hernia,Procedure,SNOMED,Procedure,608798003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4177376,Laparoscopic adrenalectomy,Procedure,SNOMED,Procedure,42843004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4214521,Strabismus surgery,Procedure,SNOMED,Procedure,41453009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4122784,Excision of pelvic lymph node,Procedure,SNOMED,Procedure,234265005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4140266,Operation on burnt skin,Procedure,SNOMED,Procedure,265694008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4287790,Posterior repair of vagina,Procedure,SNOMED,Procedure,397823004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4310737,Cystourethroscopy with resection of neck of urinary bladder,Procedure,SNOMED,Procedure,388230004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4029357,Surgical removal of foreign body,Procedure,SNOMED,Procedure,128992008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4030412,Pelvic lymphadenectomy,Procedure,SNOMED,Procedure,14059008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4030840,Electroconvulsive therapy,Procedure,SNOMED,Procedure,23835007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4080965,Extracorporeal circulation procedure,Procedure,SNOMED,Procedure,182744004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4023288,Perineal urethrostomy,Procedure,SNOMED,Procedure,176135001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4213045,Lumpectomy of breast,Procedure,SNOMED,Procedure,392021009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4078260,Puncture of joint,Procedure,SNOMED,Procedure,179906007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4167074,Osteotomy for hallux valgus,Procedure,SNOMED,Procedure,274050008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4258554,Incision and drainage of hip joint,Procedure,SNOMED,Procedure,439526007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4283229,Excision of lesion of spleen,Procedure,SNOMED,Procedure,67061007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+44783696,Vaginal hysterectomy with repair of cystocele and rectocele,Procedure,SNOMED,Procedure,699789005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4067028,Removal of foreign body from cornea,Procedure,SNOMED,Procedure,172426003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4168082,Bone nailing,Procedure,SNOMED,Procedure,274478003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+36675314,Laparoscopic repair of umbilical hernia,Procedure,SNOMED,Procedure,771708006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+40487348,Excision of scar,Procedure,SNOMED,Procedure,446295000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+44783078,Arthroscopic repair of rotator cuff,Procedure,SNOMED,Procedure,699120002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4052390,Transjugular intrahepatic portosystemic shunt,Procedure,SNOMED,Procedure,233445008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4073990,Removal of ureteral stent,Procedure,SNOMED,Procedure,178728009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4085901,Gynecologic examination under general anesthesia,Procedure,SNOMED,Procedure,243702000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4195255,Excision of excessive skin and subcutaneous tissue of buttock,Procedure,SNOMED,Procedure,79772002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4151314,Removal of Kirschner wire internal bone fixator,Procedure,SNOMED,Procedure,310635006,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4208748,Open reduction of trimalleolar fracture of ankle with internal fixation,Procedure,SNOMED,Procedure,440707008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4070581,Open pleurectomy,Procedure,SNOMED,Procedure,177783000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4130390,Refashioning urinary stoma,Procedure,SNOMED,Procedure,261551001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4287321,Thrombectomy of vein,Procedure,SNOMED,Procedure,397028007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+36675325,Open repair of epigastric hernia using sutures,Procedure,SNOMED,Procedure,771719009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+40488368,Laparoscopic partial cystectomy,Procedure,SNOMED,Procedure,446586007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+40299999,Cystoscopy,Procedure,SNOMED,Procedure,142505009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+37016994,Laparoscopic total colectomy with ileo-rectal anastomosis,Procedure,SNOMED,Procedure,713165008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4067713,Bilobectomy of lung,Procedure,SNOMED,Procedure,173170008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4085444,Intravascular ultrasound angiography of blood vessel,Procedure,SNOMED,Procedure,241466007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4086024,Removal of external fixation,Procedure,SNOMED,Procedure,281951001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4000518,Biopsy of mediastinum,Procedure,SNOMED,Procedure,119284002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4128302,Mediastinoscopy,Procedure,SNOMED,Procedure,261479009,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4288168,Open reduction of separation of epiphysis of fibula,Procedure,SNOMED,Procedure,6967000,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4308446,Ureteroneocystostomy with urinary bladder flap,Procedure,SNOMED,Procedure,83588004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4030239,Arthrotomy for removal of prosthesis of knee,Procedure,SNOMED,Procedure,13743007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4049677,Axillobifemoral bypass graft,Procedure,SNOMED,Procedure,233379008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4138959,Heart-lung transplant with recipient cardiectomy-pneumonectomy,Procedure,SNOMED,Procedure,32477003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4269222,Repair of nasal septal perforation,Procedure,SNOMED,Procedure,63145008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+43531086,Open reduction of dislocation of acromioclavicular joint,Procedure,SNOMED,Procedure,608781003,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+40481912,Excision of sentinel lymph node,Procedure,SNOMED,Procedure,443497002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4022029,Reconstruction of renal artery,Procedure,SNOMED,Procedure,175474005,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4081731,Biopsy of skin,Procedure,SNOMED,Procedure,240977001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4099402,Insertion of intracardiac pacemaker,Procedure,SNOMED,Procedure,25267002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4138738,Vaginal hysterectomy,Procedure,SNOMED,Procedure,265056007,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4145834,Open thrombectomy of renal vein,Procedure,SNOMED,Procedure,426937008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4152054,"Functional endoscopic sinus surgery, total",Procedure,SNOMED,Procedure,31432002,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+42872572,Laparoscopic excision of ectopic ovarian pregnancy,Procedure,SNOMED,Procedure,450563004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4078220,Incision of mediastinum,Procedure,SNOMED,Procedure,18936008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4143508,Ureteroscopic removal of ureteric calculus,Procedure,SNOMED,Procedure,265561004,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4146331,Diathermy of skin lesion,Procedure,SNOMED,Procedure,307999008,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+4280680,Closed manipulation of dislocation of hip,Procedure,SNOMED,Procedure,65824001,procedure_occurrence,procedure_concept_id,,<10,,,,,,,,,,
+38004473,Thoracic Surgery,Provider,Medicare Specialty,Physician Specialty,33,procedure_occurrence,provider_id,2704,2502,1.9508315594956842,,,2.5054764512595837,,,,,,
+38004447,General Surgery,Provider,Medicare Specialty,Physician Specialty,2,procedure_occurrence,provider_id,1926,1468,1.1446126016545421,,,1.7387732749178533,32.04182041820418,,,,,
+38004451,Cardiology,Provider,Medicare Specialty,Physician Specialty,6,procedure_occurrence,provider_id,869,737,0.5746454273974098,,,1.588170865279299,,,,,,
+38004461,Obstetrics / Gynecology,Provider,Medicare Specialty,Physician Specialty,16,procedure_occurrence,provider_id,169,155,0.12085487279050003,,,,1.5375153751537516,,,,,
+38004474,Urology,Provider,Medicare Specialty,Physician Specialty,34,procedure_occurrence,provider_id,115,101,0.07875059452800325,,,,2.1525215252152523,,,,,
+38004465,Orthopedic Surgery,Provider,Medicare Specialty,Physician Specialty,20,procedure_occurrence,provider_id,112,99,0.07719117681457743,,,,3.5055350553505535,,,,,
+38004467,Plastic And Reconstructive Surgery,Provider,Medicare Specialty,Physician Specialty,24,procedure_occurrence,provider_id,29,22,0.017153594847683876,,,,,,,,,
+38004450,Anesthesiology,Provider,Medicare Specialty,Physician Specialty,5,procedure_occurrence,provider_id,24,23,0.017933303704396778,,,,0.922509225092251,,,,,
+38004449,Otolaryngology,Provider,Medicare Specialty,Physician Specialty,4,procedure_occurrence,provider_id,23,22,0.017153594847683876,,,,0.922509225092251,,,,,
+38004455,Gastroenterology,Provider,Medicare Specialty,Physician Specialty,10,procedure_occurrence,provider_id,19,15,0.011695632850693551,,,,,,,,,
+38004504,Maxillofacial Surgery,Provider,Medicare Specialty,Physician Specialty,85,procedure_occurrence,provider_id,12,10,0.007797088567129034,,,,,,,,,
+38004459,Neurosurgery,Provider,Medicare Specialty,Physician Specialty,14,procedure_occurrence,provider_id,,<10,,,,,,,,,,
+38004463,Ophthalmology,Provider,Medicare Specialty,Physician Specialty,18,procedure_occurrence,provider_id,,<10,,,,,,,,,,
+38004675,Physician / Diagnostic Radiology,Provider,Medicare Specialty,Physician Specialty,30,procedure_occurrence,provider_id,,<10,,,,,,,,,,
+38004500,Critical care (intensivist),Provider,Medicare Specialty,Physician Specialty,81,procedure_occurrence,provider_id,,<10,,,,,,,,,,
+38004472,Pulmonary Disease,Provider,Medicare Specialty,Physician Specialty,29,procedure_occurrence,provider_id,,<10,,,,,,,,,,
+38004488,Psychology,Provider,Medicare Specialty,Provider,62,procedure_occurrence,provider_id,,<10,,,,,,,,,,
