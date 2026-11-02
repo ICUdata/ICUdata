@@ -8,7 +8,7 @@ priorities shift.
 > commitment unless stated otherwise. If your research requires a feature 
 > not mentioned here, or sooner than indicated, email projectteam@icudata.nl.
 
-_Last updated:_ 2026-10-28
+_Last updated:_ 2026-11-02
 
 ---
 
@@ -31,21 +31,25 @@ Work that spans multiple tables is grouped under descriptive headings instead.
 ## In progress
 
 ### Hospital onboarding & data sources
-
+-- Leids Medisch Centrum
+-- Amphia 
 ---
 
 ## Soon
 
 ### Hospital onboarding & data sources
 
-- Add NICE registry data from the remaining hospitals
+- Add NICE registry data from Catharina Ziekenhuis
 - Receive NWZ delivery
 
-### Vocabulary & concept mapping
+### Fluid balance
 
-- NICE registry concept standardization
-- Change mapping from many ICUdata concepts to SNOMED
+- Optimize fluid balance for all Metavision hospitals
+- Create guide for fluid balance calculation
 
+### Data-accuracy
+
+- Differentiate draw time and result-in-EHR time for lab measurements
 ---
 
 ## Later
@@ -58,7 +62,6 @@ Work that spans multiple tables is grouped under descriptive headings instead.
 
 - Overhaul fluid balance concepts
 - Add microbiology results from Epic 
-- Support for multi-select answers in HiX
 
 ---
 
@@ -84,7 +87,6 @@ Work that spans multiple tables is grouped under descriptive headings instead.
 ### Measurement
 
 - Add `range_low` and `range_high` columns to `measurement`
-- Add reference values for measurements
 - Link measurements via `measurement_event_id`:
   - Blood pressure measurements
   - Measurements with multiple answers
@@ -109,10 +111,12 @@ Work that spans multiple tables is grouped under descriptive headings instead.
 ### Vocabulary & concept mapping
 
 - Unit `concept_id` mapping
+- NICE registry concept standardization
+- Change mapping from many ICUdata concepts to SNOMED
 
 ### Visit occurrence & visit detail
 
-- Change `visit_occurrence` to hospital admission level and `visit_detail` for ward movements, including ICU
+- Add `visit_detail` for ward movements, including ICU
 - `admitted_from_concept_id` and `discharged_to_concept_id` concept mapping
 - Add a `provider_id` column to `visit_occurrence` and `visit_detail` to capture medical specialty
   - In OMOP, ICU specialty is best modeled as a provider linked to a visit. It is currently a concept in the `measurement` table; with this change, when the specialty changes during a `visit_occurrence`, two `visit_detail` rows are created.
@@ -138,6 +142,7 @@ Work that spans multiple tables is grouped under descriptive headings instead.
 - `value_as_concept_id` mapping for common measurements
 - Transform measurements with dates as values into boolean measurements at that date
 - Correct blood specimen types for LOINC codes (Blood, serum and/or plasma concepts) depending on measurement type
+- Support for multi-select answers in HiX
 
 ### Death
 
