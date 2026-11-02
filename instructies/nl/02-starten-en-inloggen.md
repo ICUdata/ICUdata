@@ -23,9 +23,12 @@ Daarna opent het Linux-bureaublad.
 
 De VMs schakelen automatisch uit; het tijdstip staat in het VM-scherm van je MyDRE-werkruimte. We vragen gebruikers om de VM uit te schakelen wanneer die niet in gebruik is.
 
-Voer voordat je de Linux VM uitschakelt `/home/ICUdata/can-i-shut-down` uit in de Terminal Emulator. Schakel alleen uit als de eerste regel JA zegt. Het script laat ook zien wie er nog meer is ingelogd en welke programma's draaien.
+Voer voordat je de Linux VM uitschakelt `/home/ICUdata/can-i-shut-down` uit in de Terminal Emulator. Het script bekijkt 10 seconden lang de programma's van andere gebruikers. Schakel alleen uit als de eerste regel JA zegt.
 
-Om het zelf te controleren, voer je `loginctl list-users` uit. Als daar iemand anders dan jij in staat, laat de VM dan aan.
+- **NEE**: een programma van iemand anders is aan het werk, bijvoorbeeld een lopende pipeline.
+- **JA**: niemand anders is aan het werk. Anderen kunnen nog ingelogd zijn of een programma open hebben dat niets doet, zoals een inactieve Python-sessie; het script noemt ze dan, en uitschakelen sluit hun sessies.
+
+Om het zelf te controleren, voer je `top` uit en kijk je naar de kolommen USER en %CPU. Als een programma van een andere gebruiker CPU gebruikt, laat de VM dan aan.
 
 ## Wanneer contact opnemen
 
