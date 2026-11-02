@@ -2,7 +2,7 @@
 
 Deze handleiding beschrijft de structuur van de ICUdata-database, hoe je queries uitvoert en tips voor het werken met de data.
 
-Voor het opzetten van je omgeving, zie [Aan de slag](getting-started.md).
+Voor het opzetten van je omgeving, zie [Aan de slag](aan-de-slag.md).
 
 ---
 
