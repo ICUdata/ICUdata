@@ -7,7 +7,7 @@ Only for those who need the Windows VM. Everyone else works on the Linux VM dire
 - At most 2 users can use the Windows VM at the same time (a Microsoft limit). To see who is using it, type `query user` in Command Prompt or PowerShell.
 - The Windows VM is a visual interface with applications, such as Visual Studio Code, to connect to the Linux VM. No data is or should be stored on it.
 - Start the Linux VM as well: the Windows VM only connects to it.
-- The VMs shut down automatically. Shut down the Windows VM when it is not in use.
+- The VMs shut down automatically; the time is shown in the VM screen of your MyDRE workspace. Shut down the Windows VM when it is not in use.
 
 ## Connecting to the Linux VM with VSCode (Remote-SSH)
 

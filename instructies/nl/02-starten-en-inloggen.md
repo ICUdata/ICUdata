@@ -21,9 +21,11 @@ Daarna opent het Linux-bureaublad.
 
 ## De Linux VM uitschakelen
 
-De VMs worden automatisch uitgeschakeld. We vragen gebruikers om de VM uit te schakelen wanneer die niet in gebruik is.
+De VMs schakelen automatisch uit; het tijdstip staat in het VM-scherm van je MyDRE-werkruimte. We vragen gebruikers om de VM uit te schakelen wanneer die niet in gebruik is.
 
-Controleer voordat je de Linux VM uitschakelt of er anderen zijn ingelogd: voer `loginctl list-users` uit in de Terminal Emulator. Als daar iemand anders dan jij in staat, laat de VM dan aan.
+Voer voordat je de Linux VM uitschakelt `/home/ICUdata/can-i-shut-down` uit in de Terminal Emulator. Schakel alleen uit als de eerste regel JA zegt. Het script laat ook zien wie er nog meer is ingelogd en welke programma's draaien.
+
+Om het zelf te controleren, voer je `loginctl list-users` uit. Als daar iemand anders dan jij in staat, laat de VM dan aan.
 
 ## Wanneer contact opnemen
 

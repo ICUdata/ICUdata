@@ -7,7 +7,7 @@ Alleen voor wie de Windows VM nodig heeft. Alle anderen werken direct op de Linu
 - Maximaal 2 gebruikers kunnen de Windows VM tegelijk gebruiken (een beperking van Microsoft). Om te zien wie de VM gebruikt, typ je `query user` in Command Prompt of PowerShell.
 - De Windows VM is een visuele interface met applicaties, zoals Visual Studio Code, om verbinding te maken met de Linux VM. Er worden en mogen geen data op opgeslagen worden.
 - Start ook de Linux VM: de Windows VM maakt alleen verbinding met de Linux VM.
-- De VMs worden automatisch uitgeschakeld. Schakel de Windows VM uit wanneer die niet in gebruik is.
+- De VMs schakelen automatisch uit; het tijdstip staat in het VM-scherm van je MyDRE-werkruimte. Schakel de Windows VM uit wanneer die niet in gebruik is.
 
 ## Verbinden met de Linux VM via VSCode (Remote-SSH)
 

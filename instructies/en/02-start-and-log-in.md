@@ -21,9 +21,11 @@ Then the Linux desktop opens.
 
 ## Shut down the Linux VM
 
-The VMs shut down automatically. We ask users to shut down the VM when it is not in use.
+The VMs shut down automatically; the time is shown in the VM screen of your MyDRE workspace. We ask users to shut down the VM when it is not in use.
 
-Before you shut down the Linux VM, check whether others are logged in: run `loginctl list-users` in the Terminal Emulator. If it lists anyone besides you, leave the VM running.
+Before you shut down the Linux VM, run `/home/ICUdata/can-i-shut-down` in the Terminal Emulator. Shut down only if the first line says YES. The script also lists who else is logged in and which programs are running.
+
+To check by hand instead, run `loginctl list-users`. If it lists anyone besides you, leave the VM running.
 
 ## When to contact us
 
