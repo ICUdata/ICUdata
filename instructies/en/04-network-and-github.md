@@ -22,4 +22,6 @@ To prevent accidental exposure of medical data, we advise using GitHub with a **
 
 If you need access to a specific application or an outbound internet connection that is not available in the workspace, let projectteam@icudata.nl know. Some applications only work if specific domains are whitelisted. You can check [this overview](https://lookerstudio.google.com/embed/u/0/reporting/0cba74d6-0573-4675-8bb1-d754c7d88a6a/page/vhAYE) to see which applications have known domain requirements and whether they can be supported without changes.
 
+For a VM with a GPU, more processor cores or memory, or no automatic shutdown, see [When to contact us](02-start-and-log-in.md#when-to-contact-us).
+
 Next, only if you need the Windows VM: [5. Windows VM and SSH](05-windows-vm-and-ssh.md)

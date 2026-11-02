@@ -22,4 +22,6 @@ Om onbedoelde blootstelling van medische data te voorkomen, adviseren we GitHub 
 
 Als je toegang nodig hebt tot een specifieke applicatie of een uitgaande internetverbinding die niet beschikbaar is in de werkruimte, laat het projectteam@icudata.nl weten. Sommige applicaties werken alleen als specifieke domeinen op een whitelist staan. Je kunt [dit overzicht](https://lookerstudio.google.com/embed/u/0/reporting/0cba74d6-0573-4675-8bb1-d754c7d88a6a/page/vhAYE) raadplegen om te zien welke applicaties bekende domeinvereisten hebben en of ze zonder aanpassingen ondersteund kunnen worden.
 
+Voor een VM met een GPU, meer processorkernen of geheugen, of zonder automatische uitschakeling, zie [Wanneer contact opnemen](02-starten-en-inloggen.md#wanneer-contact-opnemen).
+
 Volgende, alleen als je de Windows VM nodig hebt: [5. Windows VM en SSH](05-windows-vm-en-ssh.md)

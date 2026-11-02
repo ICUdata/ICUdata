@@ -9,8 +9,7 @@ The ICUdata workspace has two virtual machines (VMs):
 
 ## Start the Linux VM
 
-- Start only the **Linux VM** in your MyDRE workspace.
-- The VMs are **not shut down automatically**. We ask users to shut down the VM when it is not in use.
+Start only the **Linux VM** in your MyDRE workspace.
 
 ## Log in
 
@@ -19,5 +18,20 @@ The ICUdata workspace has two virtual machines (VMs):
 3. Click **RDP** (for the Linux VM).
 
 Then the Linux desktop opens.
+
+## Shut down the Linux VM
+
+The VMs shut down automatically. We ask users to shut down the VM when it is not in use.
+
+Before you shut down the Linux VM, check whether others are logged in: run `loginctl list-users` in the Terminal Emulator. If it lists anyone besides you, leave the VM running.
+
+## When to contact us
+
+Contact projectteam@icudata.nl if:
+
+- you run a long process and need the automatic shutdown turned off;
+- you need a VM with a GPU;
+- you need a VM with more processor cores or memory;
+- Spot evictions keep stopping your program after several tries. The VMs are Azure Spot VMs, which Azure can stop when it needs the capacity elsewhere (an "eviction").
 
 Next: [3. Working environment](03-working-environment.md)

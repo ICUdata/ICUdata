@@ -18,7 +18,7 @@ Python is installed on the Linux VM. To install specific Python packages, create
 
 ## R
 
-RStudio runs on the Linux VM and opens in a web browser on port 8005. The steps to open it from the Windows VM are in [5. Windows VM and SSH](05-windows-vm-and-ssh.md).
+RStudio Server runs on the Linux VM, on port 8005. On the Linux desktop, open a web browser and go to `http://localhost:8005`. If that does not work, use the route in [5. Windows VM and SSH](05-windows-vm-and-ssh.md) and let us know at projectteam@icudata.nl.
 
 ## Applications
 

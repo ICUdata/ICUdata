@@ -9,8 +9,7 @@ De ICUdata-werkruimte heeft twee virtuele machines (VMs):
 
 ## De Linux VM starten
 
-- Start alleen de **Linux VM** in je MyDRE-werkruimte.
-- De VMs worden **niet automatisch uitgeschakeld**. We vragen gebruikers om de VM uit te schakelen wanneer die niet in gebruik is.
+Start alleen de **Linux VM** in je MyDRE-werkruimte.
 
 ## Inloggen
 
@@ -19,5 +18,20 @@ De ICUdata-werkruimte heeft twee virtuele machines (VMs):
 3. Klik op **RDP** (voor de Linux VM).
 
 Daarna opent het Linux-bureaublad.
+
+## De Linux VM uitschakelen
+
+De VMs worden automatisch uitgeschakeld. We vragen gebruikers om de VM uit te schakelen wanneer die niet in gebruik is.
+
+Controleer voordat je de Linux VM uitschakelt of er anderen zijn ingelogd: voer `loginctl list-users` uit in de Terminal Emulator. Als daar iemand anders dan jij in staat, laat de VM dan aan.
+
+## Wanneer contact opnemen
+
+Neem contact op met projectteam@icudata.nl als:
+
+- je een lang proces draait en de automatische uitschakeling uitgezet moet worden;
+- je een VM met een GPU nodig hebt;
+- je een VM met meer processorkernen of geheugen nodig hebt;
+- Spot-evictions je programma blijven stoppen, ook na meerdere pogingen. De VMs zijn Azure Spot VMs, die Azure kan stoppen wanneer Azure de capaciteit ergens anders nodig heeft (een "eviction").
 
 Volgende: [3. Werkomgeving](03-werkomgeving.md)
