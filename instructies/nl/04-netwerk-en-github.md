@@ -24,4 +24,4 @@ Als je toegang nodig hebt tot een specifieke applicatie of een uitgaande interne
 
 Voor een VM met een GPU, meer processorkernen of geheugen, of zonder automatische uitschakeling, zie [Wanneer contact opnemen](02-starten-en-inloggen.md#wanneer-contact-opnemen).
 
-Volgende, alleen als je de Windows VM nodig hebt: [5. Windows VM en SSH](05-windows-vm-en-ssh.md)
+Volgende: [5. Data en code](05-data-en-code.md)

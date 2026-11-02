@@ -1,4 +1,4 @@
-# 5. Windows VM en SSH
+# 6. Windows VM en SSH
 
 Alleen voor wie de Windows VM nodig heeft. Alle anderen werken direct op de Linux VM ([2. Starten en inloggen](02-starten-en-inloggen.md)).
 

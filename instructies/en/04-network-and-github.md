@@ -24,4 +24,4 @@ If you need access to a specific application or an outbound internet connection 
 
 For a VM with a GPU, more processor cores or memory, or no automatic shutdown, see [When to contact us](02-start-and-log-in.md#when-to-contact-us).
 
-Next, only if you need the Windows VM: [5. Windows VM and SSH](05-windows-vm-and-ssh.md)
+Next: [5. Data and code](05-data-and-code.md)

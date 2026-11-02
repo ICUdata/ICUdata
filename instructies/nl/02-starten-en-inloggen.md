@@ -5,7 +5,7 @@
 De ICUdata-werkruimte heeft twee virtuele machines (VMs):
 
 - **Linux VM**: de VM waarop iedereen werkt. Deze VM bevat een eigen schijf met gebruikersspecifieke data, en de alleen-lezen DuckDB-database in `/home/ICUdata`, die ICUdata bevat.
-- **Windows VM**: maximaal 2 gebruikers tegelijk (een beperking van Microsoft). De Linux VM heeft die beperking niet, dus iedereen gebruikt de Linux VM. Gebruik de Windows VM alleen als je die nodig hebt; zie [5. Windows VM en SSH](05-windows-vm-en-ssh.md).
+- **Windows VM**: maximaal 2 gebruikers tegelijk (een beperking van Microsoft). De Linux VM heeft die beperking niet, dus iedereen gebruikt de Linux VM. Gebruik de Windows VM alleen als je die nodig hebt; zie [6. Windows VM en SSH](06-windows-vm-en-ssh.md).
 
 ## De Linux VM starten
 

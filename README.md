@@ -8,7 +8,8 @@ Publieke repository van de Dutch ICU Data Warehouse (Stichting ICUdata), een pro
   - [`02-starten-en-inloggen.md`](instructies/nl/02-starten-en-inloggen.md) — de Linux VM starten en inloggen
   - [`03-werkomgeving.md`](instructies/nl/03-werkomgeving.md) — werken op de Linux VM: VSCode, Python, R en applicaties
   - [`04-netwerk-en-github.md`](instructies/nl/04-netwerk-en-github.md) — netwerkbeperkingen, GitHub-toegang, applicaties aanvragen
-  - [`05-windows-vm-en-ssh.md`](instructies/nl/05-windows-vm-en-ssh.md) — alleen als je de Windows VM nodig hebt
+  - [`05-data-en-code.md`](instructies/nl/05-data-en-code.md) — data uploaden, werken met code, resultaten uit MyDRE halen
+  - [`06-windows-vm-en-ssh.md`](instructies/nl/06-windows-vm-en-ssh.md) — alleen als je de Windows VM nodig hebt
   - [`database-uitleg.md`](instructies/nl/database-uitleg.md) — overzicht van de databasestructuur, tabellen en querytips
   - [`omop-uitleg.md`](instructies/nl/omop-uitleg.md) — uitleg van het OMOP CDM-formaat en alle tabellen
 - `instructies/en/` — map met instructies in het Engels
@@ -28,7 +29,8 @@ Public repository of the Dutch ICU Data Warehouse (Stichting ICUdata), a project
   - [`02-start-and-log-in.md`](instructies/en/02-start-and-log-in.md) — start the Linux VM and log in
   - [`03-working-environment.md`](instructies/en/03-working-environment.md) — working on the Linux VM: VSCode, Python, R and applications
   - [`04-network-and-github.md`](instructies/en/04-network-and-github.md) — network restrictions, GitHub access, requesting applications
-  - [`05-windows-vm-and-ssh.md`](instructies/en/05-windows-vm-and-ssh.md) — only if you need the Windows VM
+  - [`05-data-and-code.md`](instructies/en/05-data-and-code.md) — uploading data, working with code, getting results out of MyDRE
+  - [`06-windows-vm-and-ssh.md`](instructies/en/06-windows-vm-and-ssh.md) — only if you need the Windows VM
   - [`database-guide.md`](instructies/en/database-guide.md) — overview of the database structure, tables, and query tips
   - [`omop-explanation.md`](instructies/en/omop-explanation.md) — explanation of the OMOP CDM format and all tables
 - `instructies/nl/` — folder with instructions in Dutch

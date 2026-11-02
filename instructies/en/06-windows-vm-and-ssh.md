@@ -1,4 +1,4 @@
-# 5. Windows VM and SSH
+# 6. Windows VM and SSH
 
 Only for those who need the Windows VM. Everyone else works on the Linux VM directly ([2. Start the VM and log in](02-start-and-log-in.md)).
 

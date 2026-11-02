@@ -18,7 +18,7 @@ Python is geïnstalleerd op de Linux VM. Om specifieke Python-packages te instal
 
 ## R
 
-RStudio Server draait op de Linux VM, op poort 8005. Open op het Linux-bureaublad een webbrowser en ga naar `http://localhost:8005`. Als dat niet werkt, gebruik dan de route in [5. Windows VM en SSH](05-windows-vm-en-ssh.md) en laat het ons weten via projectteam@icudata.nl.
+RStudio Server draait op de Linux VM, op poort 8005. Open op het Linux-bureaublad een webbrowser en ga naar `http://localhost:8005`. Als dat niet werkt, gebruik dan de route in [6. Windows VM en SSH](06-windows-vm-en-ssh.md) en laat het ons weten via projectteam@icudata.nl.
 
 ## Applicaties
 
