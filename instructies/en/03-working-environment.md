@@ -18,7 +18,9 @@ Python is installed on the Linux VM. To install specific Python packages, create
 
 ## R
 
-RStudio Server runs on the Linux VM, on port 8005. On the Linux desktop, open a web browser and go to `http://localhost:8005`. If that does not work, use the route in [6. Windows VM and SSH](06-windows-vm-and-ssh.md) and let us know at projectteam@icudata.nl.
+RStudio Server runs on the Linux VM, on port 8005. On the Linux desktop, open a web browser and go to `http://localhost:8005`. Log in with your MyDRE e-mail address as the username and your MyDRE password.
+
+Use the same R version on your own PC as on the VM, so that code you write there also runs here. `R --version` in the Terminal Emulator shows the version on the VM.
 
 ## Applications
 
