@@ -11,6 +11,7 @@ Publieke repository van de Dutch ICU Data Warehouse (Stichting ICUdata), een pro
 - `releases/` — per release: release notes (`release-notes.md`: wat er nieuw is, in gewone taal), een changelog (`changelog.md`) en de volledige concept-dictionary (`dictionary.csv`, en per tabel in `dictionary/`) van die release, met alle concepten en statistieken (aantal rijen, aantal patiënten, patiëntdekking per ziekenhuis; aantallen onder de 10 patiënten worden niet getoond)
 - [`concept_taxonomy.yaml`](releases/v0.3.0-2026-11-02/concept_taxonomy.yaml) — alle concepten van de huidige release (0.3.0), gegroepeerd naar de klinische vraag die ze beantwoorden (categorie, subcategorie, onderwerp), met hun OMOP `concept_id`-waarden; startpunt voor het bevragen van variabelen. Elke releasemap in `releases/` heeft zijn eigen versie; vóór 0.3.0 heette het bestand `common_concepts.yaml`.
 - [`concept_taxonomy.md`](releases/v0.3.0-2026-11-02/concept_taxonomy.md) — dezelfde indeling als inklapbare pagina die je op GitHub kunt doorbladeren
+- [`metadata/`](metadata/) en [`ACCESS.md`](ACCESS.md) — metadata van de registry en de voorwaarden voor toegang
 
 ---
 
@@ -27,3 +28,4 @@ Public repository of the Dutch ICU Data Warehouse (Stichting ICUdata), a project
 - `releases/` — per release: release notes (`release-notes.md`: what is new, in plain language), a changelog (`changelog.md`) and that release's full concept dictionary (`dictionary.csv`, and per table in `dictionary/`), with all concepts and statistics (row counts, patient counts, patient coverage per hospital; numbers below 10 patients are not shown)
 - [`concept_taxonomy.yaml`](releases/v0.3.0-2026-11-02/concept_taxonomy.yaml) — every concept of the current release (0.3.0), grouped by the clinical question it answers (category, subcategory, topic), with its OMOP `concept_id` values; a starting point for querying variables. Each release folder in `releases/` has its own version; before 0.3.0 the file was called `common_concepts.yaml`.
 - [`concept_taxonomy.md`](releases/v0.3.0-2026-11-02/concept_taxonomy.md) — the same taxonomy as a collapsible page you can browse on GitHub
+- [`metadata/`](metadata/) and [`ACCESS.md`](ACCESS.md) — registry metadata and the terms of access

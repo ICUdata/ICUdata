@@ -49,6 +49,10 @@ percentages; in other rows, a hospital's coverage percentage that stands for
 fewer than 10 patients is left blank. This applies to every release from
 v0.3.0 on, and was applied to the published v0.2.0 dictionary afterwards.
 
+On 2026-11-20 the columns `concept_uri` and `source_uri` (and `concept_uri` and
+`value_uri` in the `<table>_values.csv` files) were added to the published
+v0.3.0 dictionary; the data themselves did not change.
+
 ## Versioning
 
 Release folders use `v<MAJOR>.<MINOR>.<PATCH>`. The largest change in a release
