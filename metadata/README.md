@@ -11,13 +11,13 @@ from participating Dutch hospitals.
 | Website | https://www.icudata.nl/metadata |
 
 ## Inclusion criteria
-TODO (ICUdata board)
+TODO 
 
 ## Exclusion criteria
-TODO (ICUdata board)
+TODO
 
 ## Frequency of data collection
-TODO (ICUdata board), e.g. how often hospitals deliver data and how often a new release is published.
+TODO, e.g. how often hospitals deliver data and how often a new release is published.
 
 ## Data standard
 The data are stored in the OMOP Common Data Model v5.4, using the standard vocabularies SNOMED CT, LOINC, RxNorm and UCUM.
