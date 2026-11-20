@@ -1,7 +1,5 @@
 # Data access and terms of use
 
-> Every `TODO` is a decision for the ICUdata board.
-
 ## Who can apply
 TODO
 
